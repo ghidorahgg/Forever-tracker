@@ -46,10 +46,24 @@ function Countdown() {
   return <div className="count">Launch in <b>{Math.floor(s / 86400)}d {Math.floor(s / 3600) % 24}h {Math.floor(s / 60) % 60}m {s % 60}s</b><small>Nov 4, 2026 · 3:00 PM PST</small><small>Your time: {new Date(LAUNCH).toLocaleString(undefined, { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit', timeZoneName: 'short' })}</small></div>;
 }
 const Tag = ({ c }: { c: string }) => <span className={'tag ' + c}>{c}</span>;
+const INTRO_KEY = 'ghidorah-forever-intro-dismissed';
+function introDismissed(): boolean {
+  try { return localStorage.getItem(INTRO_KEY) === '1'; } catch { return false; }
+}
+function setIntroDismissed(dismissed: boolean) {
+  try {
+    if (dismissed) localStorage.setItem(INTRO_KEY, '1');
+    else localStorage.removeItem(INTRO_KEY);
+  } catch { /* keep the in-memory toggle if storage is blocked */ }
+}
+function Legend({ src, announced }: { src?: boolean; announced?: boolean }) {
+  return <p className="legend"><Tag c="beta" /> is from beta data and may change at launch.{announced && <> <Tag c="announced" /> comes from a public announcement.</>}{src && <> <span className="src-key">src</span> links open the source.</>}</p>;
+}
 export default function App() {
   const [st, setSt] = useState<State>(load);
   const [tab, setTab] = useState('challenges');
   const [msg, setMsg] = useState('');
+  const [showIntro, setShowIntro] = useState(() => !introDismissed());
   const size = SIZES[st.campSize || 'Basic'];
   useEffect(() => { localStorage.setItem(KEY, JSON.stringify(st)); }, [st]);
   const earned = useMemo(() => data.challenges.filter(c => st.done.includes(c.id)).reduce((a, c) => a + c.points, 0), [st.done]);
@@ -59,6 +73,8 @@ export default function App() {
   const updChar = (p: Partial<Char>) => upd({ chars: st.chars.map(c => c.id === ch.id ? { ...c, ...p } : c) });
   const spent = ch ? Object.values(ch.plan).reduce((a, b) => a + b, 0) : 0;
   const share = () => { const url = location.origin + location.pathname + '#p=' + enc(st); navigator.clipboard?.writeText(url); history.replaceState(null, '', url); alert('Share link copied to clipboard'); };
+  const dismissIntro = () => { setIntroDismissed(true); setShowIntro(false); };
+  const reopenIntro = () => { setIntroDismissed(false); setShowIntro(true); };
   const cats = [...new Set(data.challenges.map(c => c.category))];
   const next = useMemo(() => {
     const out: string[] = []; if (!ch) return out;
@@ -75,9 +91,24 @@ export default function App() {
   const groupClasses = new Set(st.group);
   return <div className="wrap">
     <header><h1>GhidorahGG <span>Forever Tracker</span></h1><Countdown /></header>
+    {showIntro ? <section className="intro" aria-label="About this tracker">
+      <div className="intro-top">
+        <p>A free, fan-made tracker for WoW: Forever Legacy challenges, alts, perk planning, and campfires, launching November 4, 2026.</p>
+        <button type="button" className="howto" onClick={dismissIntro}>Got it</button>
+      </div>
+      <h2>How to use</h2>
+      <ol>
+        <li>Tick off challenges to tally Legacy Points.</li>
+        <li>Add characters in Characters.</li>
+        <li>Plan perk points in Perks and plan camps in Camp.</li>
+        <li>Progress saves automatically in your browser. Use Share plan to send a link.</li>
+      </ol>
+    </section> : <div className="intro-reopen"><button type="button" className="howto" onClick={reopenIntro}>How to use</button></div>}
     <div className="stats"><div><b>{earned}</b> account Legacy Points</div><div><b>{st.done.length}</b>/{data.challenges.length} challenges</div><button onClick={share}>🔗 Share plan</button></div>
     <nav>{['challenges', 'characters', 'perks', 'camp'].map(t => <button key={t} className={tab === t ? 'on' : ''} onClick={() => setTab(t)}>{t}</button>)}</nav>
     {tab === 'challenges' && <section>
+      <p className="lead">Tick the box on each Legacy challenge you have finished. Your Legacy Points update in the bar above.</p>
+      <Legend src />
       {cats.map(cat => { const list = data.challenges.filter(c => c.category === cat);
         return <div className="card" key={cat}><h3>{cat} <small>{list.filter(c => st.done.includes(c.id)).length}/{list.length}</small></h3>
           <div className="grid">{list.map(c => <label key={c.id} className={st.done.includes(c.id) ? 'done' : ''}>
@@ -86,6 +117,7 @@ export default function App() {
       <p className="note">⚠ {data.meta.notes[0]} </p>
     </section>}
     {tab === 'characters' && <section>
+      <p className="lead">Click a character to edit them, or + Add to create an alt, then set class, race, level, and professions.</p>
       <div className="chips">{st.chars.map(c => <button key={c.id} className={c.id === ch?.id ? 'on' : ''} onClick={() => upd({ active: c.id })}>{c.name} <small>{c.level} {c.race} {c.cls}</small></button>)}
         <button onClick={() => { const c = newChar(); upd({ chars: [...st.chars, c], active: c.id }); }}>+ Add</button></div>
       {ch && <div className="card form">
@@ -99,6 +131,7 @@ export default function App() {
       <div className="card"><h3>What to do next</h3><ul>{next.map((n, i) => <li key={i}>{n}</li>)}</ul></div>
     </section>}
     {tab === 'perks' && ch && <section>
+      <p className="lead">Click + and − to plan perk ranks for this character. A perk stays locked until its tree has enough points.</p>
       <div className="stats"><div>Planning <b>{ch.name}</b>: {spent}/{CAP} planned <small>({Math.min(CAP, earned)} usable now, {earned} earned)</small></div><button onClick={() => updChar({ plan: {} })}>Reset</button></div>
       {msg && <p className="bad" data-testid="cascade">{msg}</p>}
       {earned < CAP && <p className="note">You can plan beyond earned points; extra ranks are shown as "planned".</p>}
@@ -111,6 +144,8 @@ export default function App() {
       <p className="note">Gates: column 2 needs 5 points in the tree, column 3 needs 10. "needs" prereqs come from foreverdb.net only (beta). Removing a rank automatically removes any ranks that lose their unlock.</p>
     </section>}
     {tab === 'camp' && <section>
+      <p className="lead">Click your group's classes, choose a camp size, then tick the camp features you want. Red means that buff will not stack.</p>
+      <Legend announced />
       <div className="card"><h3>Your group's classes</h3><div className="chips">{CLASSES.map(c => <button key={c} className={groupClasses.has(c) ? 'on' : ''} onClick={() => upd({ group: groupClasses.has(c) ? st.group.filter(x => x !== c) : [...st.group, c] })}>{c}</button>)}</div></div>
       <div className="card"><h3>Camp Features <small>{st.camp.length}/{size}</small></h3>
         <div className="chips">{Object.entries(SIZES).map(([k, n]) => <button key={k} className={(st.campSize || 'Basic') === k ? 'on' : ''} onClick={() => upd({ campSize: k, camp: st.camp.slice(0, n) })}>{k} ({n})</button>)}</div>
@@ -125,8 +160,8 @@ export default function App() {
       </div>
     </section>}
     <footer>
-      <p>Made for the <a href="https://www.youtube.com/@GhidorahGG" target="_blank" rel="noopener">GhidorahGG YouTube channel</a>. Data from fan sites (<a href="https://wowfdb.com/legacy">wowfdb.com</a>, <a href="https://foreverdb.net/legacy">foreverdb.net</a>) and Blizzard news; may change at launch.</p>
-      <p>Not affiliated with or endorsed by Blizzard Entertainment. World of Warcraft is a trademark of Blizzard Entertainment, Inc.</p>
+      <p>Unofficial fan site, not affiliated with Blizzard. Made for the <a href="https://www.youtube.com/@GhidorahGG" target="_blank" rel="noopener">GhidorahGG YouTube channel</a>.</p>
+      <p>Data from fan sites (<a href="https://wowfdb.com/legacy">wowfdb.com</a>, <a href="https://foreverdb.net/legacy">foreverdb.net</a>) and Blizzard news; may change at launch. World of Warcraft is a trademark of Blizzard Entertainment, Inc.</p>
     </footer>
   </div>;
 }
