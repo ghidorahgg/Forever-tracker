@@ -1,0 +1,1220 @@
+{
+ "meta": {
+  "challengeCountClaimed": {
+   "standard": 65,
+   "foreverdbCategoryPointTotal": 81
+  },
+  "pointsCapPerCharacter": 16,
+  "launch": "2026-11-04T15:00:00-08:00",
+  "rewards": [
+   [
+    15,
+    "Replica Ironforge Air Rifle"
+   ],
+   [
+    25,
+    "Spectral Bear Cub"
+   ],
+   [
+    40,
+    "Spectral Bear Tabard"
+   ],
+   [
+    55,
+    "Reins of the Spectral Bear"
+   ]
+  ],
+  "notes": [
+   "Reconciled: 65 standard challenges at 1 point each (wowfdb, wowhead, theforeverera, wowhandbook all agree). foreverdb's '81' and 'Adventure 18 points' count the beta-only 'Played in the WoW: Forever Beta' challenge, worth 16 points, inside Adventure (2 + 16 = 18; 65 + 16 = 81). No Adventure challenges are missing.",
+   "Arrow prerequisites (extraPrereq: previous perk at max rank) are confirmed by foreverdb.net and theforeverera.com from beta client data."
+  ],
+  "campSizes": {
+   "Basic": 3,
+   "Journeyman": 5,
+   "Expert": 10
+  }
+ },
+ "challenges": [
+  {
+   "id": "class-druid-25",
+   "name": "Novice Druid",
+   "category": "Classes",
+   "points": 1,
+   "hint": "Druid reaches level 25",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "class-druid-45",
+   "name": "Experienced Druid",
+   "category": "Classes",
+   "points": 1,
+   "hint": "Druid reaches level 45",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "class-druid-60",
+   "name": "Master Druid",
+   "category": "Classes",
+   "points": 1,
+   "hint": "Druid reaches level 60",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "class-hunter-25",
+   "name": "Novice Hunter",
+   "category": "Classes",
+   "points": 1,
+   "hint": "Hunter reaches level 25",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "class-hunter-45",
+   "name": "Experienced Hunter",
+   "category": "Classes",
+   "points": 1,
+   "hint": "Hunter reaches level 45",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "class-hunter-60",
+   "name": "Master Hunter",
+   "category": "Classes",
+   "points": 1,
+   "hint": "Hunter reaches level 60",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "class-mage-25",
+   "name": "Novice Mage",
+   "category": "Classes",
+   "points": 1,
+   "hint": "Mage reaches level 25",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "class-mage-45",
+   "name": "Experienced Mage",
+   "category": "Classes",
+   "points": 1,
+   "hint": "Mage reaches level 45",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "class-mage-60",
+   "name": "Master Mage",
+   "category": "Classes",
+   "points": 1,
+   "hint": "Mage reaches level 60",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "class-paladin-25",
+   "name": "Novice Paladin",
+   "category": "Classes",
+   "points": 1,
+   "hint": "Paladin reaches level 25",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "class-paladin-45",
+   "name": "Experienced Paladin",
+   "category": "Classes",
+   "points": 1,
+   "hint": "Paladin reaches level 45",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "class-paladin-60",
+   "name": "Master Paladin",
+   "category": "Classes",
+   "points": 1,
+   "hint": "Paladin reaches level 60",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "class-priest-25",
+   "name": "Novice Priest",
+   "category": "Classes",
+   "points": 1,
+   "hint": "Priest reaches level 25",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "class-priest-45",
+   "name": "Experienced Priest",
+   "category": "Classes",
+   "points": 1,
+   "hint": "Priest reaches level 45",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "class-priest-60",
+   "name": "Master Priest",
+   "category": "Classes",
+   "points": 1,
+   "hint": "Priest reaches level 60",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "class-rogue-25",
+   "name": "Novice Rogue",
+   "category": "Classes",
+   "points": 1,
+   "hint": "Rogue reaches level 25",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "class-rogue-45",
+   "name": "Experienced Rogue",
+   "category": "Classes",
+   "points": 1,
+   "hint": "Rogue reaches level 45",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "class-rogue-60",
+   "name": "Master Rogue",
+   "category": "Classes",
+   "points": 1,
+   "hint": "Rogue reaches level 60",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "class-shaman-25",
+   "name": "Novice Shaman",
+   "category": "Classes",
+   "points": 1,
+   "hint": "Shaman reaches level 25",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "class-shaman-45",
+   "name": "Experienced Shaman",
+   "category": "Classes",
+   "points": 1,
+   "hint": "Shaman reaches level 45",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "class-shaman-60",
+   "name": "Master Shaman",
+   "category": "Classes",
+   "points": 1,
+   "hint": "Shaman reaches level 60",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "class-warlock-25",
+   "name": "Novice Warlock",
+   "category": "Classes",
+   "points": 1,
+   "hint": "Warlock reaches level 25",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "class-warlock-45",
+   "name": "Experienced Warlock",
+   "category": "Classes",
+   "points": 1,
+   "hint": "Warlock reaches level 45",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "class-warlock-60",
+   "name": "Master Warlock",
+   "category": "Classes",
+   "points": 1,
+   "hint": "Warlock reaches level 60",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "class-warrior-25",
+   "name": "Novice Warrior",
+   "category": "Classes",
+   "points": 1,
+   "hint": "Warrior reaches level 25",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "class-warrior-45",
+   "name": "Experienced Warrior",
+   "category": "Classes",
+   "points": 1,
+   "hint": "Warrior reaches level 45",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "class-warrior-60",
+   "name": "Master Warrior",
+   "category": "Classes",
+   "points": 1,
+   "hint": "Warrior reaches level 60",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "prof-alchemy-150",
+   "name": "Journeyman Alchemist",
+   "category": "Tradeskills",
+   "points": 1,
+   "hint": "Alchemy 150",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "prof-alchemy-225",
+   "name": "Expert Alchemist",
+   "category": "Tradeskills",
+   "points": 1,
+   "hint": "Alchemy 225",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "prof-alchemy-300",
+   "name": "Artisan Alchemist",
+   "category": "Tradeskills",
+   "points": 1,
+   "hint": "Alchemy 300",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "prof-blacksmithing-150",
+   "name": "Journeyman Blacksmith",
+   "category": "Tradeskills",
+   "points": 1,
+   "hint": "Blacksmithing 150",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "prof-blacksmithing-225",
+   "name": "Expert Blacksmith",
+   "category": "Tradeskills",
+   "points": 1,
+   "hint": "Blacksmithing 225",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "prof-blacksmithing-300",
+   "name": "Artisan Blacksmith",
+   "category": "Tradeskills",
+   "points": 1,
+   "hint": "Blacksmithing 300",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "prof-enchanting-150",
+   "name": "Journeyman Enchanter",
+   "category": "Tradeskills",
+   "points": 1,
+   "hint": "Enchanting 150",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "prof-enchanting-225",
+   "name": "Expert Enchanter",
+   "category": "Tradeskills",
+   "points": 1,
+   "hint": "Enchanting 225",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "prof-enchanting-300",
+   "name": "Artisan Enchanter",
+   "category": "Tradeskills",
+   "points": 1,
+   "hint": "Enchanting 300",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "prof-engineering-150",
+   "name": "Journeyman Engineer",
+   "category": "Tradeskills",
+   "points": 1,
+   "hint": "Engineering 150",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "prof-engineering-225",
+   "name": "Expert Engineer",
+   "category": "Tradeskills",
+   "points": 1,
+   "hint": "Engineering 225",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "prof-engineering-300",
+   "name": "Artisan Engineer",
+   "category": "Tradeskills",
+   "points": 1,
+   "hint": "Engineering 300",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "prof-leatherworking-150",
+   "name": "Journeyman Leatherworker",
+   "category": "Tradeskills",
+   "points": 1,
+   "hint": "Leatherworking 150",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "prof-leatherworking-225",
+   "name": "Expert Leatherworker",
+   "category": "Tradeskills",
+   "points": 1,
+   "hint": "Leatherworking 225",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "prof-leatherworking-300",
+   "name": "Artisan Leatherworker",
+   "category": "Tradeskills",
+   "points": 1,
+   "hint": "Leatherworking 300",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "prof-tailoring-150",
+   "name": "Journeyman Tailor",
+   "category": "Tradeskills",
+   "points": 1,
+   "hint": "Tailoring 150",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "prof-tailoring-225",
+   "name": "Expert Tailor",
+   "category": "Tradeskills",
+   "points": 1,
+   "hint": "Tailoring 225",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "prof-tailoring-300",
+   "name": "Artisan Tailor",
+   "category": "Tradeskills",
+   "points": 1,
+   "hint": "Tailoring 300",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "dng-0",
+   "name": "Novice Spelunker",
+   "category": "Dungeons",
+   "points": 1,
+   "hint": "Low-level dungeon set",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "dng-1",
+   "name": "Experienced Spelunker",
+   "category": "Dungeons",
+   "points": 1,
+   "hint": "Mid-level dungeon set",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "dng-2",
+   "name": "Master Spelunker",
+   "category": "Dungeons",
+   "points": 1,
+   "hint": "High-level dungeon set",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "raid-0",
+   "name": "Conqueror of the Wilds",
+   "category": "Raids",
+   "points": 1,
+   "hint": "Hyjal Summit raid",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "raid-1",
+   "name": "Conqueror of the Deeps",
+   "category": "Raids",
+   "points": 1,
+   "hint": "Barrow Deeps raid",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "raid-2",
+   "name": "Conqueror of the Lair",
+   "category": "Raids",
+   "points": 1,
+   "hint": "Onyxia",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "pvp-rank-3",
+   "name": "Rank 3",
+   "category": "PvP",
+   "points": 1,
+   "hint": "Honor rank 3",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "pvp-rank-7",
+   "name": "Rank 7",
+   "category": "PvP",
+   "points": 1,
+   "hint": "Honor rank 7",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "pvp-rank-10",
+   "name": "Rank 10",
+   "category": "PvP",
+   "points": 1,
+   "hint": "Honor rank 10",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "pvp-rank-13",
+   "name": "Rank 13",
+   "category": "PvP",
+   "points": 1,
+   "hint": "Honor rank 13",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "pvp-rank-14",
+   "name": "Rank 14",
+   "category": "PvP",
+   "points": 1,
+   "hint": "Honor rank 14",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "pvp-alterac-valley",
+   "name": "Master of Alterac Valley",
+   "category": "PvP",
+   "points": 1,
+   "hint": "Exalted with battleground faction",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "pvp-arathi-basin",
+   "name": "Master of Arathi Basin",
+   "category": "PvP",
+   "points": 1,
+   "hint": "Exalted with battleground faction",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "pvp-warsong-gulch",
+   "name": "Master of Warsong Gulch",
+   "category": "PvP",
+   "points": 1,
+   "hint": "Exalted with battleground faction",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "pvp-darkspear-islands",
+   "name": "Master of Darkspear Islands",
+   "category": "PvP",
+   "points": 1,
+   "hint": "Exalted with battleground faction",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "foh-4",
+   "name": "Field of Honor: Week 4",
+   "category": "PvP",
+   "points": 1,
+   "hint": "Field of Honor Journey week 4",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "foh-7",
+   "name": "Field of Honor: Week 7",
+   "category": "PvP",
+   "points": 1,
+   "hint": "Field of Honor Journey week 7",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "foh-10",
+   "name": "Field of Honor: Week 10",
+   "category": "PvP",
+   "points": 1,
+   "hint": "Field of Honor Journey week 10",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "adv-beta",
+   "name": "Played in the WoW: Forever Beta",
+   "category": "Special",
+   "points": 16,
+   "hint": "Granted to beta testers; not one of the 65 standard challenges",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy",
+    "https://theforeverera.com/en/legacy/"
+   ]
+  },
+  {
+   "id": "adv-valthalak",
+   "name": "Lord Valthalak Laid to Rest",
+   "category": "Adventure",
+   "points": 1,
+   "hint": "Questline",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy",
+    "https://wowfdb.com/legacy/challenges/",
+    "https://www.wowhead.com/forever/guide/legacy-system-overview-rewards",
+    "https://theforeverera.com/en/legacy/"
+   ]
+  },
+  {
+   "id": "adv-explorer",
+   "name": "Explorer",
+   "category": "Adventure",
+   "points": 1,
+   "hint": "Explore all zones",
+   "confidence": "beta",
+   "sources": [
+    "https://foreverdb.net/legacy",
+    "https://wowfdb.com/legacy/challenges/",
+    "https://www.wowhead.com/forever/guide/legacy-system-overview-rewards",
+    "https://theforeverera.com/en/legacy/"
+   ]
+  }
+ ],
+ "perks": [
+  {
+   "id": "wo",
+   "name": "Working Overtime",
+   "tree": "Professions",
+   "maxRanks": 5,
+   "column": 1,
+   "effect": "Tradeskill skill-up chance",
+   "extraPrereq": null,
+   "confidence": "beta",
+   "sources": [
+    "https://wowfdb.com/legacy",
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "bh",
+   "name": "Bountiful Harvest",
+   "tree": "Professions",
+   "maxRanks": 5,
+   "column": 1,
+   "effect": "Scarce gathering materials",
+   "extraPrereq": null,
+   "confidence": "beta",
+   "sources": [
+    "https://wowfdb.com/legacy",
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "mc",
+   "name": "Master Chef",
+   "tree": "Professions",
+   "maxRanks": 5,
+   "column": 2,
+   "effect": "Extra cooking results",
+   "extraPrereq": null,
+   "confidence": "beta",
+   "sources": [
+    "https://wowfdb.com/legacy",
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "bart",
+   "name": "Bartering",
+   "tree": "Professions",
+   "maxRanks": 2,
+   "column": 2,
+   "effect": "Cheaper vendor items",
+   "extraPrereq": null,
+   "confidence": "beta",
+   "sources": [
+    "https://wowfdb.com/legacy",
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "pb",
+   "name": "Performance Bonus",
+   "tree": "Professions",
+   "maxRanks": 3,
+   "column": 2,
+   "effect": "Merchant's Favor bonus",
+   "extraPrereq": "bh:5",
+   "confidence": "beta",
+   "sources": [
+    "https://wowfdb.com/legacy",
+    "https://foreverdb.net/legacy",
+    "https://theforeverera.com/en/legacy/"
+   ]
+  },
+  {
+   "id": "lure",
+   "name": "Luremaster",
+   "tree": "Professions",
+   "maxRanks": 2,
+   "column": 2,
+   "effect": "Extra fish with lure",
+   "extraPrereq": null,
+   "confidence": "beta",
+   "sources": [
+    "https://wowfdb.com/legacy",
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "ds",
+   "name": "Dedicated Study",
+   "tree": "Professions",
+   "maxRanks": 1,
+   "column": 3,
+   "effect": "+1 lowest tradeskill",
+   "extraPrereq": "bart:2",
+   "confidence": "beta",
+   "sources": [
+    "https://wowfdb.com/legacy",
+    "https://foreverdb.net/legacy",
+    "https://theforeverera.com/en/legacy/"
+   ]
+  },
+  {
+   "id": "wr",
+   "name": "Well Rested",
+   "tree": "Adventure",
+   "maxRanks": 5,
+   "column": 1,
+   "effect": "Faster rested XP, higher cap",
+   "extraPrereq": null,
+   "confidence": "beta",
+   "sources": [
+    "https://wowfdb.com/legacy",
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "thrill",
+   "name": "Thrill of Adventure",
+   "tree": "Adventure",
+   "maxRanks": 5,
+   "column": 1,
+   "effect": "Heal/mana on kill",
+   "extraPrereq": null,
+   "confidence": "beta",
+   "sources": [
+    "https://wowfdb.com/legacy",
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "alert",
+   "name": "High Alert",
+   "tree": "Adventure",
+   "maxRanks": 2,
+   "column": 2,
+   "effect": "Stealth detection",
+   "extraPrereq": null,
+   "confidence": "beta",
+   "sources": [
+    "https://wowfdb.com/legacy",
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "talented",
+   "name": "Talented",
+   "tree": "Adventure",
+   "maxRanks": 5,
+   "column": 2,
+   "effect": "Earlier talent points",
+   "extraPrereq": "wr:5",
+   "confidence": "beta",
+   "sources": [
+    "https://wowfdb.com/legacy",
+    "https://foreverdb.net/legacy",
+    "https://theforeverera.com/en/legacy/"
+   ]
+  },
+  {
+   "id": "fguide",
+   "name": "Field Guide",
+   "tree": "Adventure",
+   "maxRanks": 3,
+   "column": 2,
+   "effect": "Lower camp feature cooldown",
+   "extraPrereq": null,
+   "confidence": "beta",
+   "sources": [
+    "https://wowfdb.com/legacy",
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "fmed",
+   "name": "Field Medicine",
+   "tree": "Adventure",
+   "maxRanks": 2,
+   "column": 2,
+   "effect": "Shorter Recently Bandaged",
+   "extraPrereq": null,
+   "confidence": "beta",
+   "sources": [
+    "https://wowfdb.com/legacy",
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "flier",
+   "name": "Frequent Flier",
+   "tree": "Adventure",
+   "maxRanks": 1,
+   "column": 3,
+   "effect": "Cheaper, faster flights",
+   "extraPrereq": "fguide:3",
+   "confidence": "beta",
+   "sources": [
+    "https://wowfdb.com/legacy",
+    "https://foreverdb.net/legacy",
+    "https://theforeverera.com/en/legacy/"
+   ]
+  },
+  {
+   "id": "gour",
+   "name": "Gourmand",
+   "tree": "Resourcefulness",
+   "maxRanks": 3,
+   "column": 1,
+   "effect": "Longer food buffs",
+   "extraPrereq": null,
+   "confidence": "beta",
+   "sources": [
+    "https://wowfdb.com/legacy",
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "qd",
+   "name": "The Quick and the Dead",
+   "tree": "Resourcefulness",
+   "maxRanks": 2,
+   "column": 1,
+   "effect": "Faster corpse runs, free spells after rez",
+   "extraPrereq": null,
+   "confidence": "beta",
+   "sources": [
+    "https://wowfdb.com/legacy",
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "reinf",
+   "name": "Reinforce",
+   "tree": "Resourcefulness",
+   "maxRanks": 5,
+   "column": 1,
+   "effect": "Less durability loss",
+   "extraPrereq": null,
+   "confidence": "beta",
+   "sources": [
+    "https://wowfdb.com/legacy",
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "honor",
+   "name": "For Great Honor",
+   "tree": "Resourcefulness",
+   "maxRanks": 5,
+   "column": 2,
+   "effect": "More Honor",
+   "extraPrereq": null,
+   "confidence": "beta",
+   "sources": [
+    "https://wowfdb.com/legacy",
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "perm",
+   "name": "Permanence",
+   "tree": "Resourcefulness",
+   "maxRanks": 2,
+   "column": 2,
+   "effect": "Longer long-duration buffs & camp rest",
+   "extraPrereq": "gour:3",
+   "confidence": "beta",
+   "sources": [
+    "https://wowfdb.com/legacy",
+    "https://foreverdb.net/legacy",
+    "https://theforeverera.com/en/legacy/"
+   ]
+  },
+  {
+   "id": "diplo",
+   "name": "Diplomat",
+   "tree": "Resourcefulness",
+   "maxRanks": 5,
+   "column": 2,
+   "effect": "More reputation",
+   "extraPrereq": null,
+   "confidence": "beta",
+   "sources": [
+    "https://wowfdb.com/legacy",
+    "https://foreverdb.net/legacy"
+   ]
+  },
+  {
+   "id": "reagent",
+   "name": "Reagent Economy",
+   "tree": "Resourcefulness",
+   "maxRanks": 1,
+   "column": 3,
+   "effect": "No vendor reagents for class spells",
+   "extraPrereq": "qd:2",
+   "confidence": "beta",
+   "sources": [
+    "https://wowfdb.com/legacy",
+    "https://foreverdb.net/legacy",
+    "https://theforeverera.com/en/legacy/"
+   ]
+  }
+ ],
+ "camp": [
+  {
+   "profession": "Fishing",
+   "name": "Fish Bowl",
+   "buff": "+8% all stats",
+   "conflict": "Blessing of Kings",
+   "conflictClass": "Paladin",
+   "confidence": "announced",
+   "sources": [
+    "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
+    "https://wowfdb.com/camp/"
+   ]
+  },
+  {
+   "profession": "Enchanting",
+   "name": "Enchanted Lute",
+   "buff": "Armor, stats, resists",
+   "conflict": "Mark of the Wild",
+   "conflictClass": "Druid",
+   "confidence": "announced",
+   "sources": [
+    "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
+    "https://wowfdb.com/camp/"
+   ]
+  },
+  {
+   "profession": "First Aid",
+   "name": "First Aid Kit",
+   "buff": "Stamina",
+   "conflict": "Power Word: Fortitude",
+   "conflictClass": "Priest",
+   "confidence": "announced",
+   "sources": [
+    "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
+    "https://wowfdb.com/camp/"
+   ]
+  },
+  {
+   "profession": "Skinning",
+   "name": "Camp Chair",
+   "buff": "+2% crit",
+   "conflict": "Moonkin Aura",
+   "conflictClass": "Druid",
+   "confidence": "beta",
+   "sources": [
+    "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
+    "https://wowfdb.com/camp/"
+   ]
+  },
+  {
+   "profession": "Alchemy",
+   "name": "Mana Well",
+   "buff": "Mana regen",
+   "conflict": "Blessing of Wisdom",
+   "conflictClass": "Paladin",
+   "confidence": "announced",
+   "sources": [
+    "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
+    "https://wowfdb.com/camp/"
+   ]
+  },
+  {
+   "profession": "Herbalism",
+   "name": "Incense Candle",
+   "buff": "Intellect",
+   "conflict": "Arcane Intellect",
+   "conflictClass": "Mage",
+   "confidence": "announced",
+   "sources": [
+    "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
+    "https://wowfdb.com/camp/"
+   ]
+  },
+  {
+   "profession": "Tailoring",
+   "name": "Faction Banner",
+   "buff": "Spirit",
+   "conflict": "Divine Spirit",
+   "conflictClass": "Priest",
+   "confidence": "announced",
+   "sources": [
+    "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
+    "https://wowfdb.com/camp/"
+   ]
+  },
+  {
+   "profession": "Mining",
+   "name": "Lodestone",
+   "buff": "Melee attack power",
+   "conflict": "Blessing of Might",
+   "conflictClass": "Paladin",
+   "confidence": "announced",
+   "sources": [
+    "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
+    "https://wowfdb.com/camp/"
+   ]
+  },
+  {
+   "profession": "Blacksmithing",
+   "name": "Sharpening Wheel",
+   "buff": "Strength",
+   "conflict": "Strength of Earth Totem",
+   "conflictClass": "Shaman",
+   "confidence": "announced",
+   "sources": [
+    "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
+    "https://wowfdb.com/camp/"
+   ]
+  },
+  {
+   "profession": "Leatherworking",
+   "name": "Camp Tent",
+   "buff": "Rested XP",
+   "conflict": null,
+   "conflictClass": null,
+   "confidence": "beta",
+   "sources": [
+    "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
+    "https://wowfdb.com/camp/"
+   ]
+  },
+  {
+   "profession": "Engineering",
+   "name": "Reagent Bot",
+   "buff": "Reagent vendor",
+   "conflict": null,
+   "conflictClass": null,
+   "confidence": "beta",
+   "sources": [
+    "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
+    "https://wowfdb.com/camp/"
+   ]
+  },
+  {
+   "profession": "Cooking",
+   "name": "Cookie's Feast",
+   "buff": "Party food",
+   "conflict": null,
+   "conflictClass": null,
+   "confidence": "beta",
+   "sources": [
+    "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
+    "https://wowfdb.com/camp/"
+   ]
+  }
+ ]
+}
