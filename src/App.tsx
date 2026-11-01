@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import data from './data/legacy.json';
+import Talents from './Talents';
 import DungeonQuests from './DungeonQuests';
 type Char = { id: string; name: string; cls: string; race: string; profs: string; level: number; plan: Record<string, number> };
 type State = { done: string[]; chars: Char[]; active: string; camp: string[]; group: string[]; campSize?: string; dq?: number[] };
@@ -65,7 +66,7 @@ function Legend({ src, announced }: { src?: boolean; announced?: boolean }) {
 }
 export default function App() {
   const [st, setSt] = useState<State>(load);
-  const [tab, setTab] = useState('challenges');
+  const [tab, setTab] = useState(() => location.hash.startsWith('#t=') ? 'talents' : 'challenges');
   const [msg, setMsg] = useState('');
   const [showIntro, setShowIntro] = useState(() => !introDismissed());
   const size = SIZES[st.campSize || 'Basic'];
@@ -101,20 +102,20 @@ export default function App() {
     <header><h1>GhidorahGG <span>Forever Tracker</span></h1><Countdown /></header>
     {showIntro ? <section className="intro" aria-label="About this tracker">
       <div className="intro-top">
-        <p>A free, fan-made tracker for WoW: Forever Legacy challenges, alts, perk planning, campfires, and Classic dungeon quests, launching November 4, 2026.</p>
+        <p>A free, fan-made tracker for WoW: Forever Legacy challenges, alts, perk planning, talent builds, campfires, and Classic dungeon quests, launching November 4, 2026.</p>
         <button type="button" className="howto" onClick={dismissIntro}>Got it</button>
       </div>
       <h2>How to use</h2>
       <ol>
         <li>Tick off challenges to tally Legacy Points.</li>
         <li>Add characters in Characters.</li>
-        <li>Plan perk points in Perks and plan camps in Camp.</li>
+        <li>Plan talent builds in Talents, perk points in Perks, and camps in Camp.</li>
         <li>Open Dungeon Quests to filter Classic dungeon quests by faction and check off the ones you have finished.</li>
-        <li>Progress saves automatically in your browser. Use Share plan to send a link.</li>
+        <li>Progress saves in this browser. Share plan sends the tracker. Talents has its own link for a build.</li>
       </ol>
     </section> : <div className="intro-reopen"><button type="button" className="howto" onClick={reopenIntro}>How to use</button></div>}
     <div className="stats"><div><b>{earned}</b> account Legacy Points</div><div><b>{st.done.length}</b>/{data.challenges.length} challenges</div><button onClick={share}>🔗 Share plan</button></div>
-    <nav>{([['challenges', 'Challenges'], ['characters', 'Characters'], ['perks', 'Perks'], ['camp', 'Camp'], ['dungeons', 'Dungeon Quests']] as const).map(([id, label]) => <button key={id} className={tab === id ? 'on' : ''} onClick={() => setTab(id)}>{label}</button>)}</nav>
+    <nav>{([['challenges', 'Challenges'], ['characters', 'Characters'], ['talents', 'Talents'], ['perks', 'Perks'], ['camp', 'Camp'], ['dungeons', 'Dungeon Quests']] as const).map(([id, label]) => <button key={id} className={tab === id ? 'on' : ''} onClick={() => setTab(id)}>{label}</button>)}</nav>
     {tab === 'challenges' && <section>
       <p className="lead">Tick the box on each Legacy challenge you have finished. Your Legacy Points update in the bar above.</p>
       <Legend src />
@@ -139,6 +140,7 @@ export default function App() {
       </div>}
       <div className="card"><h3>What to do next</h3><ul>{next.map((n, i) => <li key={i}>{n}</li>)}</ul></div>
     </section>}
+    {tab === 'talents' && <Talents />}
     {tab === 'perks' && ch && <section>
       <p className="lead">Click + and − to plan perk ranks for this character. A perk stays locked until its tree has enough points.</p>
       <div className="stats"><div>Planning <b>{ch.name}</b>: {spent}/{CAP} planned <small>({Math.min(CAP, earned)} usable now, {earned} earned)</small></div><button onClick={() => updChar({ plan: {} })}>Reset</button></div>
@@ -171,7 +173,7 @@ export default function App() {
     </section>}
     <footer>
       <p>Unofficial fan site, not affiliated with Blizzard. Made for the <a href="https://www.youtube.com/@GhidorahGG" target="_blank" rel="noopener">GhidorahGG YouTube channel</a>.</p>
-      <p>Data from fan sites (<a href="https://wowfdb.com/legacy">wowfdb.com</a>, <a href="https://foreverdb.net/legacy">foreverdb.net</a>), <a href="https://www.wowhead.com/classic">Wowhead Classic</a>, and Blizzard news; may change at launch. World of Warcraft is a trademark of Blizzard Entertainment, Inc.</p>
+      <p>Data from fan sites (<a href="https://wowfdb.com/legacy">wowfdb.com</a>, <a href="https://foreverdb.net/legacy">foreverdb.net</a>, <a href="https://wowforevertalents.com/">wowforevertalents.com</a>), <a href="https://www.wowhead.com/classic">Wowhead Classic</a>, and Blizzard news; may change at launch. Talent tooltips follow client build 1.60.1.70707 and the 30 Oct 2026 hotfix cache. World of Warcraft is a trademark of Blizzard Entertainment, Inc.</p>
     </footer>
   </div>;
 }
