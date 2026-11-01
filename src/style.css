@@ -34,6 +34,25 @@ footer{border-top:2px solid var(--line);margin-top:20px;padding-top:10px;color:v
 .legend{margin:0 0 12px;color:var(--mut);font-size:13px}
 .legend .tag{margin-right:4px;vertical-align:1px}
 .src-key{color:var(--gold)}
-@media(max-width:600px){h1{font-size:22px}.wrap{padding:10px}.intro-top{flex-direction:column}.intro-top .howto{align-self:flex-start}.intro-top p{font-size:15px}}
+.talent-trees{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.talent-grid{display:grid;gap:6px;margin-bottom:8px}
+.slot{min-height:8px}
+.talent{position:relative;min-height:78px;padding:6px;border:1px solid #2a2218;border-radius:5px;background:#120e0a;cursor:pointer;display:flex;flex-direction:column;gap:3px}
+.talent b{display:block;font-size:12px;line-height:1.25;font-weight:normal}
+.talent small{display:block}
+.talent .rkline{display:flex;align-items:center;justify-content:space-between;margin-top:auto;gap:4px}
+.talent.has{border-color:var(--gold);background:#2a210f}
+.talent.has b{color:var(--gold)}
+.talent.beta{box-shadow:inset 3px 0 0 var(--gold)}
+.talent.locked{opacity:.45}
+.talent.picked{outline:1px solid var(--gold)}
+.talent .tag{align-self:flex-start}
+.talent .rm{display:none;padding:1px 8px;line-height:1.2}
+.only-changed .talent.same{visibility:hidden}
+.tip p{margin:4px 0}
+.tip a{margin-right:0}
+@media(max-width:800px){.talent-trees{grid-template-columns:1fr}}
+@media(max-width:700px),(pointer:coarse){.talent .rm{display:inline-block}}
+@media(max-width:600px){h1{font-size:22px}.wrap{padding:10px}.intro-top{flex-direction:column}.intro-top .howto{align-self:flex-start}.intro-top p{font-size:15px}.talent{min-height:72px}}
 .grid label .tag{flex:none}
 .count small{display:block}

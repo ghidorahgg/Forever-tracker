@@ -4,6 +4,7 @@ Fan-made static web app for **World of Warcraft: Forever** (launch Nov 4, 2026, 
 
 - Legacy challenge checklist (65 standard challenges + beta-only 16-point challenge), each with source links and a confidence tag
 - Multiple characters (localStorage), account points, per-character perk planner (cap 16) with automatic gate/prereq cascade, "what to do next"
+- Talent calculator for all 9 classes (51 points, row gates, links, `#t=` build links, last build per class). Changed talents are marked BETA. Data in `src/data/talents.json`.
 - Shareable URL (`#p=…`) encoding the full plan
 - Camp buff conflict checker for Basic (3) / Journeyman (5) / Expert (10) campfires
 - Launch countdown in PST + viewer's local time
