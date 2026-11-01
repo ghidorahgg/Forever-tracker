@@ -1,1 +1,1 @@
-{"root":["./src/App.tsx","./src/DungeonQuests.tsx","./src/main.tsx"],"version":"5.9.3"}
+{"root":["./src/App.tsx","./src/DungeonQuests.tsx","./src/Talents.tsx","./src/main.tsx","./src/talentCalc.ts"],"version":"5.9.3"}

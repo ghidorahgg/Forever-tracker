@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import data from './data/legacy.json';
 import DungeonQuests from './DungeonQuests';
+import Talents from './Talents';
 type Char = { id: string; name: string; cls: string; race: string; profs: string; level: number; plan: Record<string, number> };
 type State = { done: string[]; chars: Char[]; active: string; camp: string[]; group: string[]; campSize?: string; dq?: number[] };
 const SIZES = data.meta.campSizes as Record<string, number>;
@@ -65,11 +66,19 @@ function Legend({ src, announced }: { src?: boolean; announced?: boolean }) {
 }
 export default function App() {
   const [st, setSt] = useState<State>(load);
-  const [tab, setTab] = useState('challenges');
+  const [tab, setTab] = useState(() => location.hash.startsWith('#t=') ? 'talents' : 'challenges');
   const [msg, setMsg] = useState('');
   const [showIntro, setShowIntro] = useState(() => !introDismissed());
   const size = SIZES[st.campSize || 'Basic'];
   useEffect(() => { localStorage.setItem(KEY, JSON.stringify(st)); }, [st]);
+  useEffect(() => {
+    if (tab !== 'talents' && location.hash.startsWith('#t=')) history.replaceState(null, '', location.pathname + location.search);
+  }, [tab]);
+  useEffect(() => {
+    const onHash = () => { if (location.hash.startsWith('#t=')) setTab('talents'); };
+    window.addEventListener('hashchange', onHash);
+    return () => window.removeEventListener('hashchange', onHash);
+  }, []);
   const earned = useMemo(() => data.challenges.filter(c => st.done.includes(c.id)).reduce((a, c) => a + c.points, 0), [st.done]);
   const chRaw = st.chars.find(c => c.id === st.active) || st.chars[0];
   const ch = chRaw;
@@ -101,20 +110,20 @@ export default function App() {
     <header><h1>GhidorahGG <span>Forever Tracker</span></h1><Countdown /></header>
     {showIntro ? <section className="intro" aria-label="About this tracker">
       <div className="intro-top">
-        <p>A free, fan-made tracker for WoW: Forever Legacy challenges, alts, perk planning, campfires, and Classic dungeon quests, launching November 4, 2026.</p>
+        <p>A free, fan-made tracker for WoW: Forever Legacy challenges, alts, perk planning, talent builds, campfires, and Classic dungeon quests, launching November 4, 2026.</p>
         <button type="button" className="howto" onClick={dismissIntro}>Got it</button>
       </div>
       <h2>How to use</h2>
       <ol>
         <li>Tick off challenges to tally Legacy Points.</li>
         <li>Add characters in Characters.</li>
-        <li>Plan perk points in Perks and plan camps in Camp.</li>
+        <li>Plan perk points in Perks, talent builds in Talents, and camps in Camp.</li>
         <li>Open Dungeon Quests to filter Classic dungeon quests by faction and check off the ones you have finished.</li>
-        <li>Progress saves automatically in your browser. Use Share plan to send a link.</li>
+        <li>Progress saves automatically in your browser. Use Share plan to send a link, or copy a talent build link from Talents.</li>
       </ol>
     </section> : <div className="intro-reopen"><button type="button" className="howto" onClick={reopenIntro}>How to use</button></div>}
     <div className="stats"><div><b>{earned}</b> account Legacy Points</div><div><b>{st.done.length}</b>/{data.challenges.length} challenges</div><button onClick={share}>🔗 Share plan</button></div>
-    <nav>{([['challenges', 'Challenges'], ['characters', 'Characters'], ['perks', 'Perks'], ['camp', 'Camp'], ['dungeons', 'Dungeon Quests']] as const).map(([id, label]) => <button key={id} className={tab === id ? 'on' : ''} onClick={() => setTab(id)}>{label}</button>)}</nav>
+    <nav>{([['challenges', 'Challenges'], ['characters', 'Characters'], ['perks', 'Perks'], ['talents', 'Talents'], ['camp', 'Camp'], ['dungeons', 'Dungeon Quests']] as const).map(([id, label]) => <button key={id} className={tab === id ? 'on' : ''} onClick={() => setTab(id)}>{label}</button>)}</nav>
     {tab === 'challenges' && <section>
       <p className="lead">Tick the box on each Legacy challenge you have finished. Your Legacy Points update in the bar above.</p>
       <Legend src />
@@ -152,6 +161,7 @@ export default function App() {
       </div>)}</div>
       <p className="note">Gates: column 2 needs 5 points in the tree, column 3 needs 10. "needs" prereqs come from foreverdb.net only (beta). Removing a rank automatically removes any ranks that lose their unlock.</p>
     </section>}
+    {tab === 'talents' && <Talents />}
     {tab === 'dungeons' && <DungeonQuests done={st.dq || []} onToggle={toggleDq} />}
     {tab === 'camp' && <section>
       <p className="lead">Click your group's classes, choose a camp size, then tick the camp features you want. Red means that buff will not stack.</p>
