@@ -13,7 +13,7 @@ h3{margin:0 0 8px;color:var(--gold)}small{color:var(--mut);font-size:12px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:6px}
 .grid label{display:flex;gap:8px;align-items:center;padding:6px;border:1px solid #2a2218;border-radius:5px;cursor:pointer}
 .grid label span{flex:1}.grid label small{display:block}.grid label.done{border-color:#6a8a3a;background:#1d2410}.grid label.clash{border-color:#c33;background:#2a0e0e}
-.tag{font-size:10px;padding:1px 5px;border-radius:3px;text-transform:uppercase}.tag.beta{background:#3a3a10;color:#eed}.tag.announced{background:#10304a;color:#bdf}.tag.confirmed{background:#10401a;color:#bfb}
+.tag{font-size:10px;padding:1px 5px;border-radius:3px;text-transform:uppercase}.tag.beta,.tag.classic{background:#3a3a10;color:#eed}.tag.announced,.tag.alliance{background:#10304a;color:#bdf}.tag.confirmed{background:#10401a;color:#bfb}.tag.horde{background:#4a1814;color:#f8c8b8}.tag.both{background:#3a3018;color:#f0e2b0}
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
 .form{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px}.form label{display:flex;flex-direction:column;gap:4px;color:var(--mut)}
 input,select{background:#0d0b09;color:var(--txt);border:1px solid var(--line);border-radius:4px;padding:6px;font:inherit}
@@ -31,6 +31,18 @@ footer{border-top:2px solid var(--line);margin-top:20px;padding-top:10px;color:v
 .intro-reopen{margin:12px 0 0}
 .howto{font-size:13px;padding:4px 10px}
 .lead{margin:0 0 6px}
+.qfilters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 8px}
+.qfilters input[type=search]{flex:1 1 200px;min-width:0}
+.qlist{display:flex;flex-direction:column;gap:6px}
+.qrow{display:flex;gap:8px;align-items:flex-start;padding:8px;border:1px solid #2a2218;border-radius:5px;cursor:pointer}
+.qrow.done{border-color:#6a8a3a;background:#1d2410}
+.qrow input{margin-top:4px;flex:none}
+.qbody{flex:1;min-width:0}
+.qbody a{font-weight:bold}
+.qmeta{display:block;overflow-wrap:anywhere}
+.qrow .tag{flex:none;margin-top:3px}
+.wingh{margin:10px 0 4px;color:var(--gold);font-size:15px}
+.credit{color:var(--mut);font-size:13px;margin:4px 0 0}
 .legend{margin:0 0 12px;color:var(--mut);font-size:13px}
 .legend .tag{margin-right:4px;vertical-align:1px}
 .src-key{color:var(--gold)}
