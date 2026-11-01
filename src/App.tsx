@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useState } from 'react';
 import data from './data/legacy.json';
 import Talents from './Talents';
+import DungeonQuests from './DungeonQuests';
 type Char = { id: string; name: string; cls: string; race: string; profs: string; level: number; plan: Record<string, number> };
-type State = { done: string[]; chars: Char[]; active: string; camp: string[]; group: string[]; campSize?: string };
+type State = { done: string[]; chars: Char[]; active: string; camp: string[]; group: string[]; campSize?: string; dq?: number[] };
 const SIZES = data.meta.campSizes as Record<string, number>;
 const CLASSES = ['Druid','Hunter','Mage','Paladin','Priest','Rogue','Shaman','Warlock','Warrior'];
 const RACES = ['Human','Dwarf','Night Elf','Gnome','Orc','Undead','Tauren','Troll','Skyborne'];
@@ -12,10 +13,13 @@ const KEY = 'ghidorah-forever-v1';
 const newChar = (): Char => ({ id: Math.random().toString(36).slice(2, 8), name: 'New hero', cls: 'Warrior', race: 'Human', profs: '', level: 1, plan: {} });
 const enc = (s: State) => btoa(unescape(encodeURIComponent(JSON.stringify(s))));
 const dec = (h: string): State | null => { try { return JSON.parse(decodeURIComponent(escape(atob(h)))); } catch { return null; } };
+function withDungeonChecks(s: State): State {
+  return { ...s, dq: Array.isArray(s.dq) ? s.dq : [] };
+}
 function load(): State {
-  const h = location.hash.match(/#p=(.+)/); const fromUrl = h && dec(h[1]); if (fromUrl && Array.isArray(fromUrl.chars) && fromUrl.chars.length) { history.replaceState(null, '', location.pathname); return { ...fromUrl, chars: fromUrl.chars.map(c => ({ ...c, plan: validate(c.plan || {}) })) }; }
-  const ls = localStorage.getItem(KEY); if (ls) try { return JSON.parse(ls); } catch {}
-  const c = newChar(); return { done: [], chars: [c], active: c.id, camp: [], group: [] };
+  const h = location.hash.match(/#p=(.+)/); const fromUrl = h && dec(h[1]); if (fromUrl && Array.isArray(fromUrl.chars) && fromUrl.chars.length) { history.replaceState(null, '', location.pathname); return withDungeonChecks({ ...fromUrl, chars: fromUrl.chars.map(c => ({ ...c, plan: validate(c.plan || {}) })) }); }
+  const ls = localStorage.getItem(KEY); if (ls) try { return withDungeonChecks(JSON.parse(ls)); } catch {}
+  const c = newChar(); return { done: [], chars: [c], active: c.id, camp: [], group: [], dq: [] };
 }
 const treeSpent = (plan: Record<string, number>, tree: string) => data.perks.filter(p => p.tree === tree).reduce((a, p) => a + (plan[p.id] || 0), 0);
 function canAdd(plan: Record<string, number>, p: typeof data.perks[number], budget: number) {
@@ -76,6 +80,10 @@ export default function App() {
   const share = () => { const url = location.origin + location.pathname + '#p=' + enc(st); navigator.clipboard?.writeText(url); history.replaceState(null, '', url); alert('Share link copied to clipboard'); };
   const dismissIntro = () => { setIntroDismissed(true); setShowIntro(false); };
   const reopenIntro = () => { setIntroDismissed(false); setShowIntro(true); };
+  const toggleDq = (id: number, on: boolean) => setSt(s => {
+    const cur = Array.isArray(s.dq) ? s.dq : [];
+    return { ...s, dq: on ? (cur.includes(id) ? cur : [...cur, id]) : cur.filter(x => x !== id) };
+  });
   const cats = [...new Set(data.challenges.map(c => c.category))];
   const next = useMemo(() => {
     const out: string[] = []; if (!ch) return out;
@@ -94,7 +102,7 @@ export default function App() {
     <header><h1>GhidorahGG <span>Forever Tracker</span></h1><Countdown /></header>
     {showIntro ? <section className="intro" aria-label="About this tracker">
       <div className="intro-top">
-        <p>A free, fan-made tracker for WoW: Forever Legacy challenges, alts, perk planning, talent builds, and campfires, launching November 4, 2026.</p>
+        <p>A free, fan-made tracker for WoW: Forever Legacy challenges, alts, perk planning, talent builds, campfires, and Classic dungeon quests, launching November 4, 2026.</p>
         <button type="button" className="howto" onClick={dismissIntro}>Got it</button>
       </div>
       <h2>How to use</h2>
@@ -102,11 +110,12 @@ export default function App() {
         <li>Tick off challenges to tally Legacy Points.</li>
         <li>Add characters in Characters.</li>
         <li>Plan talent builds in Talents, perk points in Perks, and camps in Camp.</li>
+        <li>Open Dungeon Quests to filter Classic dungeon quests by faction and check off the ones you have finished.</li>
         <li>Progress saves in this browser. Share plan sends the tracker. Talents has its own link for a build.</li>
       </ol>
     </section> : <div className="intro-reopen"><button type="button" className="howto" onClick={reopenIntro}>How to use</button></div>}
     <div className="stats"><div><b>{earned}</b> account Legacy Points</div><div><b>{st.done.length}</b>/{data.challenges.length} challenges</div><button onClick={share}>🔗 Share plan</button></div>
-    <nav>{['challenges', 'characters', 'talents', 'perks', 'camp'].map(t => <button key={t} className={tab === t ? 'on' : ''} onClick={() => setTab(t)}>{t}</button>)}</nav>
+    <nav>{([['challenges', 'Challenges'], ['characters', 'Characters'], ['talents', 'Talents'], ['perks', 'Perks'], ['camp', 'Camp'], ['dungeons', 'Dungeon Quests']] as const).map(([id, label]) => <button key={id} className={tab === id ? 'on' : ''} onClick={() => setTab(id)}>{label}</button>)}</nav>
     {tab === 'challenges' && <section>
       <p className="lead">Tick the box on each Legacy challenge you have finished. Your Legacy Points update in the bar above.</p>
       <Legend src />
@@ -145,6 +154,7 @@ export default function App() {
       </div>)}</div>
       <p className="note">Gates: column 2 needs 5 points in the tree, column 3 needs 10. "needs" prereqs come from foreverdb.net only (beta). Removing a rank automatically removes any ranks that lose their unlock.</p>
     </section>}
+    {tab === 'dungeons' && <DungeonQuests done={st.dq || []} onToggle={toggleDq} />}
     {tab === 'camp' && <section>
       <p className="lead">Click your group's classes, choose a camp size, then tick the camp features you want. Red means that buff will not stack.</p>
       <Legend announced />
@@ -163,7 +173,7 @@ export default function App() {
     </section>}
     <footer>
       <p>Unofficial fan site, not affiliated with Blizzard. Made for the <a href="https://www.youtube.com/@GhidorahGG" target="_blank" rel="noopener">GhidorahGG YouTube channel</a>.</p>
-      <p>Data from fan sites (<a href="https://wowfdb.com/legacy">wowfdb.com</a>, <a href="https://foreverdb.net/legacy">foreverdb.net</a>, <a href="https://wowforevertalents.com/">wowforevertalents.com</a>) and Blizzard news; may change at launch. Talent tooltips follow client build 1.60.1.70707 and the 30 Oct 2026 hotfix cache. World of Warcraft is a trademark of Blizzard Entertainment, Inc.</p>
+      <p>Data from fan sites (<a href="https://wowfdb.com/legacy">wowfdb.com</a>, <a href="https://foreverdb.net/legacy">foreverdb.net</a>, <a href="https://wowforevertalents.com/">wowforevertalents.com</a>), <a href="https://www.wowhead.com/classic">Wowhead Classic</a>, and Blizzard news; may change at launch. Talent tooltips follow client build 1.60.1.70707 and the 30 Oct 2026 hotfix cache. World of Warcraft is a trademark of Blizzard Entertainment, Inc.</p>
     </footer>
   </div>;
 }

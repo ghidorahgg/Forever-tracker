@@ -7,6 +7,7 @@ Fan-made static web app for **World of Warcraft: Forever** (launch Nov 4, 2026, 
 - Talent calculator for all 9 classes (51 points, row gates, links, `#t=` build links, last build per class). Changed talents are marked BETA. Data in `src/data/talents.json`.
 - Shareable URL (`#p=…`) encoding the full plan
 - Camp buff conflict checker for Basic (3) / Journeyman (5) / Expert (10) campfires
+- Dungeon Quests tab: Classic 1–60 dungeon quests for Alliance, Horde, and both, with Wowhead links and checkboxes stored in localStorage (`src/data/dungeon-quests.json`)
 - Launch countdown in PST + viewer's local time
 
 Data lives in `src/data/legacy.json` (own wording; sourced from wowfdb.com, foreverdb.net, wowhead.com, theforeverera.com, Blizzard news). Beta data may change at launch.
