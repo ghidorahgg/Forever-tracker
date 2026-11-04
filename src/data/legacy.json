@@ -26,7 +26,8 @@
   ],
   "notes": [
    "Reconciled: 65 standard challenges at 1 point each (wowfdb, wowhead, theforeverera, wowhandbook all agree). foreverdb's '81' and 'Adventure 18 points' count the beta-only 'Played in the WoW: Forever Beta' challenge, worth 16 points, inside Adventure (2 + 16 = 18; 65 + 16 = 81). No Adventure challenges are missing.",
-   "Arrow prerequisites (extraPrereq: previous perk at max rank) are confirmed by foreverdb.net and theforeverera.com from beta client data."
+   "Arrow prerequisites (extraPrereq: previous perk at max rank) are confirmed by foreverdb.net and theforeverera.com from beta client data.",
+   "Checked against live client build 1.60.1.70755 (wago.tools Achievement and Spell, 3 Nov 2026). The 65 standard challenge titles match the client. Perk max ranks, point gates, and unlock links match build 1.60.1.70532. Bountiful Harvest's tooltip is 20% to 100% more likely to discover Scarce materials. Reagent Economy only removes vendor reagents from class abilities."
   ],
   "campSizes": {
    "Basic": 3,
@@ -41,9 +42,11 @@
    "category": "Classes",
    "points": 1,
    "hint": "Druid reaches level 25",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -52,9 +55,11 @@
    "category": "Classes",
    "points": 1,
    "hint": "Druid reaches level 45",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -63,9 +68,11 @@
    "category": "Classes",
    "points": 1,
    "hint": "Druid reaches level 60",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -74,9 +81,11 @@
    "category": "Classes",
    "points": 1,
    "hint": "Hunter reaches level 25",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -85,9 +94,11 @@
    "category": "Classes",
    "points": 1,
    "hint": "Hunter reaches level 45",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -96,9 +107,11 @@
    "category": "Classes",
    "points": 1,
    "hint": "Hunter reaches level 60",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -107,9 +120,11 @@
    "category": "Classes",
    "points": 1,
    "hint": "Mage reaches level 25",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -118,9 +133,11 @@
    "category": "Classes",
    "points": 1,
    "hint": "Mage reaches level 45",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -129,9 +146,11 @@
    "category": "Classes",
    "points": 1,
    "hint": "Mage reaches level 60",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -140,9 +159,11 @@
    "category": "Classes",
    "points": 1,
    "hint": "Paladin reaches level 25",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -151,9 +172,11 @@
    "category": "Classes",
    "points": 1,
    "hint": "Paladin reaches level 45",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -162,9 +185,11 @@
    "category": "Classes",
    "points": 1,
    "hint": "Paladin reaches level 60",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -173,9 +198,11 @@
    "category": "Classes",
    "points": 1,
    "hint": "Priest reaches level 25",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -184,9 +211,11 @@
    "category": "Classes",
    "points": 1,
    "hint": "Priest reaches level 45",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -195,9 +224,11 @@
    "category": "Classes",
    "points": 1,
    "hint": "Priest reaches level 60",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -206,9 +237,11 @@
    "category": "Classes",
    "points": 1,
    "hint": "Rogue reaches level 25",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -217,9 +250,11 @@
    "category": "Classes",
    "points": 1,
    "hint": "Rogue reaches level 45",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -228,9 +263,11 @@
    "category": "Classes",
    "points": 1,
    "hint": "Rogue reaches level 60",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -239,9 +276,11 @@
    "category": "Classes",
    "points": 1,
    "hint": "Shaman reaches level 25",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -250,9 +289,11 @@
    "category": "Classes",
    "points": 1,
    "hint": "Shaman reaches level 45",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -261,9 +302,11 @@
    "category": "Classes",
    "points": 1,
    "hint": "Shaman reaches level 60",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -272,9 +315,11 @@
    "category": "Classes",
    "points": 1,
    "hint": "Warlock reaches level 25",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -283,9 +328,11 @@
    "category": "Classes",
    "points": 1,
    "hint": "Warlock reaches level 45",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -294,9 +341,11 @@
    "category": "Classes",
    "points": 1,
    "hint": "Warlock reaches level 60",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -305,9 +354,11 @@
    "category": "Classes",
    "points": 1,
    "hint": "Warrior reaches level 25",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -316,9 +367,11 @@
    "category": "Classes",
    "points": 1,
    "hint": "Warrior reaches level 45",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -327,9 +380,11 @@
    "category": "Classes",
    "points": 1,
    "hint": "Warrior reaches level 60",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -338,9 +393,11 @@
    "category": "Tradeskills",
    "points": 1,
    "hint": "Alchemy 150",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -349,9 +406,11 @@
    "category": "Tradeskills",
    "points": 1,
    "hint": "Alchemy 225",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -360,9 +419,11 @@
    "category": "Tradeskills",
    "points": 1,
    "hint": "Alchemy 300",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -371,9 +432,11 @@
    "category": "Tradeskills",
    "points": 1,
    "hint": "Blacksmithing 150",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -382,9 +445,11 @@
    "category": "Tradeskills",
    "points": 1,
    "hint": "Blacksmithing 225",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -393,9 +458,11 @@
    "category": "Tradeskills",
    "points": 1,
    "hint": "Blacksmithing 300",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -404,9 +471,11 @@
    "category": "Tradeskills",
    "points": 1,
    "hint": "Enchanting 150",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -415,9 +484,11 @@
    "category": "Tradeskills",
    "points": 1,
    "hint": "Enchanting 225",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -426,9 +497,11 @@
    "category": "Tradeskills",
    "points": 1,
    "hint": "Enchanting 300",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -437,9 +510,11 @@
    "category": "Tradeskills",
    "points": 1,
    "hint": "Engineering 150",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -448,9 +523,11 @@
    "category": "Tradeskills",
    "points": 1,
    "hint": "Engineering 225",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -459,9 +536,11 @@
    "category": "Tradeskills",
    "points": 1,
    "hint": "Engineering 300",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -470,9 +549,11 @@
    "category": "Tradeskills",
    "points": 1,
    "hint": "Leatherworking 150",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -481,9 +562,11 @@
    "category": "Tradeskills",
    "points": 1,
    "hint": "Leatherworking 225",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -492,9 +575,11 @@
    "category": "Tradeskills",
    "points": 1,
    "hint": "Leatherworking 300",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -503,9 +588,11 @@
    "category": "Tradeskills",
    "points": 1,
    "hint": "Tailoring 150",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -514,9 +601,11 @@
    "category": "Tradeskills",
    "points": 1,
    "hint": "Tailoring 225",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -525,9 +614,11 @@
    "category": "Tradeskills",
    "points": 1,
    "hint": "Tailoring 300",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -536,9 +627,11 @@
    "category": "Dungeons",
    "points": 1,
    "hint": "Low-level dungeon set",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -547,9 +640,11 @@
    "category": "Dungeons",
    "points": 1,
    "hint": "Mid-level dungeon set",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -558,9 +653,11 @@
    "category": "Dungeons",
    "points": 1,
    "hint": "High-level dungeon set",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -569,9 +666,11 @@
    "category": "Raids",
    "points": 1,
    "hint": "Hyjal Summit raid",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -580,9 +679,11 @@
    "category": "Raids",
    "points": 1,
    "hint": "Barrow Deeps raid",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -591,9 +692,11 @@
    "category": "Raids",
    "points": 1,
    "hint": "Onyxia",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -602,9 +705,11 @@
    "category": "PvP",
    "points": 1,
    "hint": "Honor rank 3",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -613,9 +718,11 @@
    "category": "PvP",
    "points": 1,
    "hint": "Honor rank 7",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -624,9 +731,11 @@
    "category": "PvP",
    "points": 1,
    "hint": "Honor rank 10",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -635,9 +744,11 @@
    "category": "PvP",
    "points": 1,
    "hint": "Honor rank 13",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -646,9 +757,11 @@
    "category": "PvP",
    "points": 1,
    "hint": "Honor rank 14",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -657,9 +770,11 @@
    "category": "PvP",
    "points": 1,
    "hint": "Exalted with battleground faction",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -668,9 +783,11 @@
    "category": "PvP",
    "points": 1,
    "hint": "Exalted with battleground faction",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -679,9 +796,11 @@
    "category": "PvP",
    "points": 1,
    "hint": "Exalted with battleground faction",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -690,9 +809,11 @@
    "category": "PvP",
    "points": 1,
    "hint": "Exalted with battleground faction",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -701,9 +822,11 @@
    "category": "PvP",
    "points": 1,
    "hint": "Field of Honor Journey week 4",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -712,9 +835,11 @@
    "category": "PvP",
    "points": 1,
    "hint": "Field of Honor Journey week 7",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -723,9 +848,11 @@
    "category": "PvP",
    "points": 1,
    "hint": "Field of Honor Journey week 10",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -746,12 +873,14 @@
    "category": "Adventure",
    "points": 1,
    "hint": "Questline",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
     "https://foreverdb.net/legacy",
     "https://wowfdb.com/legacy/challenges/",
     "https://www.wowhead.com/forever/guide/legacy-system-overview-rewards",
-    "https://theforeverera.com/en/legacy/"
+    "https://theforeverera.com/en/legacy/",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   },
   {
@@ -760,12 +889,14 @@
    "category": "Adventure",
    "points": 1,
    "hint": "Explore all zones",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
     "https://foreverdb.net/legacy",
     "https://wowfdb.com/legacy/challenges/",
     "https://www.wowhead.com/forever/guide/legacy-system-overview-rewards",
-    "https://theforeverera.com/en/legacy/"
+    "https://theforeverera.com/en/legacy/",
+    "https://wago.tools/db2/Achievement?build=1.60.1.70755",
+    "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"
    ]
   }
  ],
@@ -778,10 +909,12 @@
    "column": 1,
    "effect": "Tradeskill skill-up chance",
    "extraPrereq": null,
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
     "https://wowfdb.com/legacy",
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Spell?build=1.60.1.70755",
+    "https://wowforeverbuilds.com/changes"
    ]
   },
   {
@@ -790,12 +923,14 @@
    "tree": "Professions",
    "maxRanks": 5,
    "column": 1,
-   "effect": "Scarce gathering materials",
+   "effect": "20–100% more likely to find Scarce materials",
    "extraPrereq": null,
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
     "https://wowfdb.com/legacy",
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Spell?build=1.60.1.70755",
+    "https://wowforeverbuilds.com/changes"
    ]
   },
   {
@@ -806,10 +941,12 @@
    "column": 2,
    "effect": "Extra cooking results",
    "extraPrereq": null,
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
     "https://wowfdb.com/legacy",
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Spell?build=1.60.1.70755",
+    "https://wowforeverbuilds.com/changes"
    ]
   },
   {
@@ -820,10 +957,12 @@
    "column": 2,
    "effect": "Cheaper vendor items",
    "extraPrereq": null,
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
     "https://wowfdb.com/legacy",
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Spell?build=1.60.1.70755",
+    "https://wowforeverbuilds.com/changes"
    ]
   },
   {
@@ -834,11 +973,13 @@
    "column": 2,
    "effect": "Merchant's Favor bonus",
    "extraPrereq": "bh:5",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
     "https://wowfdb.com/legacy",
     "https://foreverdb.net/legacy",
-    "https://theforeverera.com/en/legacy/"
+    "https://theforeverera.com/en/legacy/",
+    "https://wago.tools/db2/Spell?build=1.60.1.70755",
+    "https://wowforeverbuilds.com/changes"
    ]
   },
   {
@@ -849,10 +990,12 @@
    "column": 2,
    "effect": "Extra fish with lure",
    "extraPrereq": null,
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
     "https://wowfdb.com/legacy",
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Spell?build=1.60.1.70755",
+    "https://wowforeverbuilds.com/changes"
    ]
   },
   {
@@ -863,11 +1006,13 @@
    "column": 3,
    "effect": "+1 lowest tradeskill",
    "extraPrereq": "bart:2",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
     "https://wowfdb.com/legacy",
     "https://foreverdb.net/legacy",
-    "https://theforeverera.com/en/legacy/"
+    "https://theforeverera.com/en/legacy/",
+    "https://wago.tools/db2/Spell?build=1.60.1.70755",
+    "https://wowforeverbuilds.com/changes"
    ]
   },
   {
@@ -878,10 +1023,12 @@
    "column": 1,
    "effect": "Faster rested XP, higher cap",
    "extraPrereq": null,
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
     "https://wowfdb.com/legacy",
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Spell?build=1.60.1.70755",
+    "https://wowforeverbuilds.com/changes"
    ]
   },
   {
@@ -892,10 +1039,12 @@
    "column": 1,
    "effect": "Heal/mana on kill",
    "extraPrereq": null,
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
     "https://wowfdb.com/legacy",
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Spell?build=1.60.1.70755",
+    "https://wowforeverbuilds.com/changes"
    ]
   },
   {
@@ -906,10 +1055,12 @@
    "column": 2,
    "effect": "Stealth detection",
    "extraPrereq": null,
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
     "https://wowfdb.com/legacy",
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Spell?build=1.60.1.70755",
+    "https://wowforeverbuilds.com/changes"
    ]
   },
   {
@@ -920,11 +1071,13 @@
    "column": 2,
    "effect": "Earlier talent points",
    "extraPrereq": "wr:5",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
     "https://wowfdb.com/legacy",
     "https://foreverdb.net/legacy",
-    "https://theforeverera.com/en/legacy/"
+    "https://theforeverera.com/en/legacy/",
+    "https://wago.tools/db2/Spell?build=1.60.1.70755",
+    "https://wowforeverbuilds.com/changes"
    ]
   },
   {
@@ -935,10 +1088,12 @@
    "column": 2,
    "effect": "Lower camp feature cooldown",
    "extraPrereq": null,
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
     "https://wowfdb.com/legacy",
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Spell?build=1.60.1.70755",
+    "https://wowforeverbuilds.com/changes"
    ]
   },
   {
@@ -949,10 +1104,12 @@
    "column": 2,
    "effect": "Shorter Recently Bandaged",
    "extraPrereq": null,
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
     "https://wowfdb.com/legacy",
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Spell?build=1.60.1.70755",
+    "https://wowforeverbuilds.com/changes"
    ]
   },
   {
@@ -963,11 +1120,13 @@
    "column": 3,
    "effect": "Cheaper, faster flights",
    "extraPrereq": "fguide:3",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
     "https://wowfdb.com/legacy",
     "https://foreverdb.net/legacy",
-    "https://theforeverera.com/en/legacy/"
+    "https://theforeverera.com/en/legacy/",
+    "https://wago.tools/db2/Spell?build=1.60.1.70755",
+    "https://wowforeverbuilds.com/changes"
    ]
   },
   {
@@ -978,10 +1137,12 @@
    "column": 1,
    "effect": "Longer food buffs",
    "extraPrereq": null,
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
     "https://wowfdb.com/legacy",
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Spell?build=1.60.1.70755",
+    "https://wowforeverbuilds.com/changes"
    ]
   },
   {
@@ -992,10 +1153,12 @@
    "column": 1,
    "effect": "Faster corpse runs, free spells after rez",
    "extraPrereq": null,
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
     "https://wowfdb.com/legacy",
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Spell?build=1.60.1.70755",
+    "https://wowforeverbuilds.com/changes"
    ]
   },
   {
@@ -1006,10 +1169,12 @@
    "column": 1,
    "effect": "Less durability loss",
    "extraPrereq": null,
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
     "https://wowfdb.com/legacy",
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Spell?build=1.60.1.70755",
+    "https://wowforeverbuilds.com/changes"
    ]
   },
   {
@@ -1020,10 +1185,12 @@
    "column": 2,
    "effect": "More Honor",
    "extraPrereq": null,
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
     "https://wowfdb.com/legacy",
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Spell?build=1.60.1.70755",
+    "https://wowforeverbuilds.com/changes"
    ]
   },
   {
@@ -1034,11 +1201,13 @@
    "column": 2,
    "effect": "Longer long-duration buffs & camp rest",
    "extraPrereq": "gour:3",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
     "https://wowfdb.com/legacy",
     "https://foreverdb.net/legacy",
-    "https://theforeverera.com/en/legacy/"
+    "https://theforeverera.com/en/legacy/",
+    "https://wago.tools/db2/Spell?build=1.60.1.70755",
+    "https://wowforeverbuilds.com/changes"
    ]
   },
   {
@@ -1049,10 +1218,12 @@
    "column": 2,
    "effect": "More reputation",
    "extraPrereq": null,
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
     "https://wowfdb.com/legacy",
-    "https://foreverdb.net/legacy"
+    "https://foreverdb.net/legacy",
+    "https://wago.tools/db2/Spell?build=1.60.1.70755",
+    "https://wowforeverbuilds.com/changes"
    ]
   },
   {
@@ -1063,11 +1234,13 @@
    "column": 3,
    "effect": "No vendor reagents for class spells",
    "extraPrereq": "qd:2",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
     "https://wowfdb.com/legacy",
     "https://foreverdb.net/legacy",
-    "https://theforeverera.com/en/legacy/"
+    "https://theforeverera.com/en/legacy/",
+    "https://wago.tools/db2/Spell?build=1.60.1.70755",
+    "https://wowforeverbuilds.com/changes"
    ]
   }
  ],
@@ -1114,10 +1287,11 @@
    "buff": "+2% crit",
    "conflict": "Moonkin Aura",
    "conflictClass": "Druid",
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
     "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
-    "https://wowfdb.com/camp/"
+    "https://wowfdb.com/camp/",
+    "https://wago.tools/db2/Spell?build=1.60.1.70755"
    ]
   },
   {
@@ -1183,13 +1357,14 @@
   {
    "profession": "Leatherworking",
    "name": "Camp Tent",
-   "buff": "Rested XP",
+   "buff": "Rested XP to 5% of a level",
    "conflict": null,
    "conflictClass": null,
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
     "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
-    "https://wowfdb.com/camp/"
+    "https://wowfdb.com/camp/",
+    "https://wago.tools/db2/Spell?build=1.60.1.70755"
    ]
   },
   {
@@ -1198,22 +1373,24 @@
    "buff": "Reagent vendor",
    "conflict": null,
    "conflictClass": null,
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
     "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
-    "https://wowfdb.com/camp/"
+    "https://wowfdb.com/camp/",
+    "https://wago.tools/db2/Spell?build=1.60.1.70755"
    ]
   },
   {
    "profession": "Cooking",
    "name": "Cookie's Feast",
-   "buff": "Party food",
+   "buff": "Stamina food",
    "conflict": null,
    "conflictClass": null,
-   "confidence": "beta",
+   "confidence": "confirmed",
    "sources": [
     "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
-    "https://wowfdb.com/camp/"
+    "https://wowfdb.com/camp/",
+    "https://wago.tools/db2/Spell?build=1.60.1.70755"
    ]
   }
  ]

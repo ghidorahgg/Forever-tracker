@@ -4,8 +4,8 @@
   "firstLevel": 10,
   "tierPoints": 5,
   "rows": 7,
-  "clientBuild": "1.60.1.70707",
-  "hotfix": "2026-10-30",
+  "clientBuild": "1.60.1.70755",
+  "hotfix": "2026-11-03",
   "rule": "51 points at level 60, one point per level from 10. Five points already in a tree open the next row. A linked talent must be at full rank."
  },
  "classes": [
@@ -89,18 +89,20 @@
        "name": "Improved Tactical Mastery",
        "row": 2,
        "col": 2,
-       "max": 5,
+       "max": 3,
        "ranks": [
-        "Tactical Mastery lets you retain up to an additional 3 Rage when you change stances.",
-        "Tactical Mastery lets you retain up to an additional 6 Rage when you change stances.",
-        "Tactical Mastery lets you retain up to an additional 9 Rage when you change stances.",
-        "Tactical Mastery lets you retain up to an additional 12 Rage when you change stances.",
+        "Tactical Mastery lets you retain up to an additional 5 Rage when you change stances.",
+        "Tactical Mastery lets you retain up to an additional 10 Rage when you change stances.",
         "Tactical Mastery lets you retain up to an additional 15 Rage when you change stances."
        ],
        "status": "changed",
        "src": [
         "https://wowforevertalents.com/warrior/",
-        "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior"
+        "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior",
+        "https://wowfdb.com/talents/warrior/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
        ]
       },
       {
@@ -172,14 +174,18 @@
        "col": 2,
        "max": 3,
        "ranks": [
-        "Increases the damage you deal with two-handed melee weapons by 1%.",
         "Increases the damage you deal with two-handed melee weapons by 2%.",
-        "Increases the damage you deal with two-handed melee weapons by 3%."
+        "Increases the damage you deal with two-handed melee weapons by 4%.",
+        "Increases the damage you deal with two-handed melee weapons by 6%."
        ],
        "status": "changed",
        "src": [
         "https://wowforevertalents.com/warrior/",
-        "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior"
+        "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior",
+        "https://wowfdb.com/talents/warrior/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
        ]
       },
       {
@@ -204,18 +210,19 @@
        "name": "Bloodthrill",
        "row": 5,
        "col": 1,
-       "max": 5,
+       "max": 2,
        "ranks": [
-        "Grants your Main Hand melee attacks against enemies afflicted by your Rend a 4% chance to allow an activation of Overpower.",
-        "Grants your Main Hand melee attacks against enemies afflicted by your Rend a 8% chance to allow an activation of Overpower.",
-        "Grants your Main Hand melee attacks against enemies afflicted by your Rend a 12% chance to allow an activation of Overpower.",
-        "Grants your Main Hand melee attacks against enemies afflicted by your Rend a 16% chance to allow an activation of Overpower.",
+        "Grants your Main Hand melee attacks against enemies afflicted by your Rend a 10% chance to allow an activation of Overpower.",
         "Grants your Main Hand melee attacks against enemies afflicted by your Rend a 20% chance to allow an activation of Overpower."
        ],
        "status": "new",
        "src": [
         "https://wowforevertalents.com/warrior/",
-        "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior"
+        "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior",
+        "https://wowfdb.com/talents/warrior/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
        ]
       },
       {
@@ -256,13 +263,17 @@
        "col": 1,
        "max": 2,
        "ranks": [
-        "Reduces the global cooldown and cast time of your Slam ability by 0.25 sec. In addition, Slam no longer interrupts or delays your melee swing and Slam's cooldown is reduced by 3.0 sec.",
-        "Reduces the global cooldown and cast time of your Slam ability by 0.50 sec. In addition, Slam no longer interrupts or delays your melee swing and Slam's cooldown is reduced by 3.0 sec."
+        "Reduces the global cooldown and cast time of your Slam ability by 0.25 sec. In addition, Slam no longer interrupts or delays your melee swing and Slam's cooldown is reduced by 2.5 sec.",
+        "Reduces the global cooldown and cast time of your Slam ability by 0.50 sec. In addition, Slam no longer interrupts or delays your melee swing and Slam's cooldown is reduced by 5.0 sec."
        ],
        "status": "changed",
        "src": [
         "https://wowforevertalents.com/warrior/",
-        "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior"
+        "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior",
+        "https://wowfdb.com/talents/warrior/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
        ]
       },
       {
@@ -306,16 +317,20 @@
        "col": 2,
        "max": 5,
        "ranks": [
-        "Increases the area of effect of your Shouts by 10% and reduces their Rage cost by 5%.",
-        "Increases the area of effect of your Shouts by 20% and reduces their Rage cost by 10%.",
-        "Increases the area of effect of your Shouts by 30% and reduces their Rage cost by 15%.",
-        "Increases the area of effect of your Shouts by 40% and reduces their Rage cost by 20%.",
-        "Increases the area of effect of your Shouts by 50% and reduces their Rage cost by 25%."
+        "Increases the area of effect of your Shouts by 10% and reduces the Rage cost of your Shouts and Piercing Howl by 5%.",
+        "Increases the area of effect of your Shouts by 20% and reduces the Rage cost of your Shouts and Piercing Howl by 10%.",
+        "Increases the area of effect of your Shouts by 30% and reduces the Rage cost of your Shouts and Piercing Howl by 15%.",
+        "Increases the area of effect of your Shouts by 40% and reduces the Rage cost of your Shouts and Piercing Howl by 20%.",
+        "Increases the area of effect of your Shouts by 50% and reduces the Rage cost of your Shouts and Piercing Howl by 25%."
        ],
        "status": "changed",
        "src": [
         "https://wowforevertalents.com/warrior/",
-        "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior"
+        "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior",
+        "https://wowfdb.com/talents/warrior/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
        ]
       },
       {
@@ -422,6 +437,29 @@
        ]
       },
       {
+       "id": "enrage",
+       "name": "Enrage",
+       "row": 3,
+       "col": 4,
+       "max": 5,
+       "ranks": [
+        "Gives you a 30% chance to deal 2% increased Physical damage for 12 sec after being the victim of any damaging attack.",
+        "Gives you a 30% chance to deal 4% increased Physical damage for 12 sec after being the victim of any damaging attack.",
+        "Gives you a 30% chance to deal 6% increased Physical damage for 12 sec after being the victim of any damaging attack.",
+        "Gives you a 30% chance to deal 8% increased Physical damage for 12 sec after being the victim of any damaging attack.",
+        "Gives you a 30% chance to deal 10% increased Physical damage for 12 sec after being the victim of any damaging attack."
+       ],
+       "status": "changed",
+       "src": [
+        "https://wowforevertalents.com/warrior/",
+        "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior",
+        "https://wowfdb.com/talents/warrior/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
+       ]
+      },
+      {
        "id": "dual-wield-specialization",
        "name": "Dual Wield Specialization",
        "row": 4,
@@ -441,38 +479,21 @@
        ]
       },
       {
-       "id": "raging-blows",
-       "name": "Raging Blows",
+       "id": "reckless-swings",
+       "name": "Reckless Swings",
        "row": 4,
        "col": 2,
        "max": 1,
        "ranks": [
-        "Reduces the Rage cost of your Cleave and Whirlwind abilities by 3."
+        "Your next 4 melee attacks generate 5 additional Rage. Lasts 8 sec."
        ],
        "status": "new",
-       "note": "Deep dive also said Whirlwind hits with both weapons while dual-wielding. That line is not in the client tooltip.",
+       "cost": "Costs 25% of base health | Instant | 15 sec cooldown",
        "src": [
-        "https://wowforevertalents.com/warrior/",
-        "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior"
-       ]
-      },
-      {
-       "id": "enrage",
-       "name": "Enrage",
-       "row": 4,
-       "col": 3,
-       "max": 5,
-       "ranks": [
-        "Gives you a 30% chance to deal 2% increased Physical damage for 12 sec after being the victim of any damaging attack.",
-        "Gives you a 30% chance to deal 4% increased Physical damage for 12 sec after being the victim of any damaging attack.",
-        "Gives you a 30% chance to deal 6% increased Physical damage for 12 sec after being the victim of any damaging attack.",
-        "Gives you a 30% chance to deal 8% increased Physical damage for 12 sec after being the victim of any damaging attack.",
-        "Gives you a 30% chance to deal 10% increased Physical damage for 12 sec after being the victim of any damaging attack."
-       ],
-       "status": "changed",
-       "src": [
-        "https://wowforevertalents.com/warrior/",
-        "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior"
+        "https://wowfdb.com/talents/warrior/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
        ]
       },
       {
@@ -524,6 +545,27 @@
        ]
       },
       {
+       "id": "gore-drinker",
+       "name": "Gore Drinker",
+       "row": 5,
+       "col": 3,
+       "max": 2,
+       "ranks": [
+        "Your Enrage, Berserker Rage, Bloodrage, Death Wish, and Bloodthirst abilities cause your next 3 melee attacks to restore 0.5% of your maximum Health.",
+        "Your Enrage, Berserker Rage, Bloodrage, Death Wish, and Bloodthirst abilities cause your next 3 melee attacks to restore 1.0% of your maximum Health."
+       ],
+       "status": "new",
+       "req": "blood-craze",
+       "src": [
+        "https://wowforevertalents.com/warrior/",
+        "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior",
+        "https://wowfdb.com/talents/warrior/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
+       ]
+      },
+      {
        "id": "improved-intercept",
        "name": "Improved Intercept",
        "row": 5,
@@ -536,40 +578,42 @@
        "status": "same"
       },
       {
-       "id": "flurry",
-       "name": "Flurry",
+       "id": "improved-whirlwind",
+       "name": "Improved Whirlwind",
        "row": 6,
-       "col": 2,
-       "max": 5,
+       "col": 1,
+       "max": 2,
        "ranks": [
-        "Increases your melee attack speed by 5% for your next 3 swings after dealing a melee critical strike.",
-        "Increases your melee attack speed by 10% for your next 3 swings after dealing a melee critical strike.",
-        "Increases your melee attack speed by 15% for your next 3 swings after dealing a melee critical strike.",
-        "Increases your melee attack speed by 20% for your next 3 swings after dealing a melee critical strike.",
-        "Increases your melee attack speed by 25% for your next 3 swings after dealing a melee critical strike."
+        "Reduces the cooldown of your Whirlwind ability by 1 sec and increases the damage it deals to the closest enemy by 15%.",
+        "Reduces the cooldown of your Whirlwind ability by 2 sec and increases the damage it deals to the closest enemy by 30%."
        ],
-       "status": "changed",
-       "req": "death-wish",
+       "status": "new",
        "src": [
-        "https://wowforevertalents.com/warrior/",
-        "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior"
+        "https://wowfdb.com/talents/warrior/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
        ]
       },
       {
-       "id": "gore-drinker",
-       "name": "Gore Drinker",
+       "id": "flurry",
+       "name": "Flurry",
        "row": 6,
        "col": 3,
-       "max": 2,
+       "max": 3,
        "ranks": [
-        "Your Enrage, Berserker Rage, Bloodrage, Death Wish, and Bloodthirst abilities cause your next 3 melee attacks to restore 0.5% of your maximum Health.",
-        "Your Enrage, Berserker Rage, Bloodrage, Death Wish, and Bloodthirst abilities cause your next 3 melee attacks to restore 1.0% of your maximum Health."
+        "Increases your melee attack speed by 10% for your next 3 swings after dealing a melee critical strike.",
+        "Increases your melee attack speed by 20% for your next 3 swings after dealing a melee critical strike.",
+        "Increases your melee attack speed by 30% for your next 3 swings after dealing a melee critical strike."
        ],
-       "status": "new",
-       "req": "enrage",
+       "status": "changed",
        "src": [
         "https://wowforevertalents.com/warrior/",
-        "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior"
+        "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior",
+        "https://wowfdb.com/talents/warrior/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
        ]
       },
       {
@@ -585,8 +629,13 @@
        "cost": "30 Rage | Melee Range | Instant | 6 sec cooldown",
        "src": [
         "https://wowforevertalents.com/warrior/",
-        "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior"
-       ]
+        "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior",
+        "https://wowfdb.com/talents/warrior/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
+       ],
+       "req": "death-wish"
       }
      ]
     },
@@ -907,7 +956,7 @@
      ]
     }
    ],
-   "note": "Deep dive places Iron Will in Arms and describes Boundless Rage, Precision, and a Raging Blows that makes Whirlwind hit with both weapons. Build 70707 does not. Tooltips follow the client."
+   "note": "Nov 2 development notes and build 1.60.1.70755: Tactical Mastery is 3 points (5/10/15 Rage), Bloodthrill is 2 points (10/20%), and Fury adds Reckless Swings and Improved Whirlwind. Raging Blows is not on that tree."
   },
   {
    "id": "paladin",
@@ -2126,7 +2175,7 @@
      "id": "marksmanship",
      "name": "Marksmanship",
      "cols": 4,
-     "confirmed": false,
+     "confirmed": true,
      "talents": [
       {
        "id": "hawk-eye",
@@ -2287,7 +2336,7 @@
        "col": 2,
        "max": 1,
        "ranks": [
-        "Increases the Ranged Attack Power of party or raid members within 45 yds by 15."
+        "Increases the Ranged Attack Power of party or raid members within 45 yds by 20."
        ],
        "status": "changed",
        "cost": "180 Mana | Instant",
@@ -2295,7 +2344,11 @@
         "https://wowforevertalents.com/patch-notes/",
         "https://www.wowhead.com/forever/news/massive-talent-tree-changes-to-druids-and-paladins-class-tuning-for-wow-forever-383670",
         "https://wowforevertalents.com/hunter/",
-        "https://news.blizzard.com/en-us/article/24301515/world-of-warcraft-forever-class-deep-dives-hunter-and-druid"
+        "https://news.blizzard.com/en-us/article/24301515/world-of-warcraft-forever-class-deep-dives-hunter-and-druid",
+        "https://wowfdb.com/talents/hunter/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
        ]
       },
       {
@@ -2317,22 +2370,6 @@
         "https://wowforevertalents.com/hunter/",
         "https://news.blizzard.com/en-us/article/24301515/world-of-warcraft-forever-class-deep-dives-hunter-and-druid"
        ]
-      },
-      {
-       "id": "improved-serpent-sting",
-       "name": "Improved Serpent Sting",
-       "row": 4,
-       "col": 4,
-       "max": 5,
-       "ranks": [
-        "Increases the damage done by your Serpent Sting by 2%.",
-        "Increases the damage done by your Serpent Sting by 4%.",
-        "Increases the damage done by your Serpent Sting by 6%.",
-        "Increases the damage done by your Serpent Sting by 8%.",
-        "Increases the damage done by your Serpent Sting by 10%."
-       ],
-       "status": "same",
-       "note": "Column 4 is inferred from left-to-right order on the Hunter page. Ranks 2–4 are even steps between the published 2% and 10%."
       },
       {
        "id": "rapid-recuperation",
@@ -2358,14 +2395,18 @@
        "col": 3,
        "max": 3,
        "ranks": [
-        "Increases the damage done by your Multi-Shot, Aimed Shot, and Volley abilities by 3%.",
-        "Increases the damage done by your Multi-Shot, Aimed Shot, and Volley abilities by 7%.",
-        "Increases the damage done by your Multi-Shot, Aimed Shot, and Volley abilities by 10%."
+        "Increases the damage done by your Multi-Shot, Aimed Shot, and Volley abilities by 5%.",
+        "Increases the damage done by your Multi-Shot, Aimed Shot, and Volley abilities by 10%.",
+        "Increases the damage done by your Multi-Shot, Aimed Shot, and Volley abilities by 15%."
        ],
        "status": "changed",
        "src": [
         "https://wowforevertalents.com/hunter/",
-        "https://news.blizzard.com/en-us/article/24301515/world-of-warcraft-forever-class-deep-dives-hunter-and-druid"
+        "https://news.blizzard.com/en-us/article/24301515/world-of-warcraft-forever-class-deep-dives-hunter-and-druid",
+        "https://wowfdb.com/talents/hunter/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
        ]
       },
       {
@@ -2402,18 +2443,21 @@
        "col": 2,
        "max": 1,
        "ranks": [
-        "A long-range shot that deals ranged damage plus 160 and increases the range of your next 3 Shots by 10 yards for 10 sec."
+        "A long-range shot that deals ranged damage plus 320 and increases the range of your next 3 Shots by 10 yards for 10 sec."
        ],
        "status": "new",
        "req": "trueshot-aura",
        "cost": "365 Mana | 8-45 yd range | 4 sec cast | 15 sec cooldown",
        "src": [
         "https://wowforevertalents.com/hunter/",
-        "https://news.blizzard.com/en-us/article/24301515/world-of-warcraft-forever-class-deep-dives-hunter-and-druid"
+        "https://news.blizzard.com/en-us/article/24301515/world-of-warcraft-forever-class-deep-dives-hunter-and-druid",
+        "https://wowfdb.com/talents/hunter/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
        ]
       }
-     ],
-     "note": "Improved Serpent Sting is on the 70707 tree and missing from the 70630 export. Column 4 follows the page's left-to-right order. Ranks 2–4 step evenly from 2% to 10%."
+     ]
     },
     {
      "id": "survival",
@@ -2690,16 +2734,20 @@
        "col": 3,
        "max": 5,
        "ranks": [
-        "Increases your Agility by 2%.",
-        "Increases your Agility by 4%.",
+        "Increases your Agility by 3%.",
         "Increases your Agility by 6%.",
-        "Increases your Agility by 8%.",
-        "Increases your Agility by 10%."
+        "Increases your Agility by 9%.",
+        "Increases your Agility by 12%.",
+        "Increases your Agility by 15%."
        ],
        "status": "changed",
        "src": [
         "https://wowforevertalents.com/hunter/",
-        "https://news.blizzard.com/en-us/article/24301515/world-of-warcraft-forever-class-deep-dives-hunter-and-druid"
+        "https://news.blizzard.com/en-us/article/24301515/world-of-warcraft-forever-class-deep-dives-hunter-and-druid",
+        "https://wowfdb.com/talents/hunter/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
        ]
       },
       {
@@ -2720,8 +2768,7 @@
       }
      ]
     }
-   ],
-   "note": "Marksmanship includes Improved Serpent Sting from the 70707 page only. Its column and middle ranks are inferred. See that talent."
+   ]
   },
   {
    "id": "rogue",
@@ -2803,19 +2850,22 @@
        ]
       },
       {
-       "id": "murder",
-       "name": "Murder",
+       "id": "improved-expose-armor",
+       "name": "Improved Expose Armor",
        "row": 2,
        "col": 2,
        "max": 2,
        "ranks": [
-        "Increases all damage dealt by 2% against Humanoid and Giant targets.",
-        "Increases all damage dealt by 4% against Humanoid and Giant targets."
+        "Reduces the Energy cost of your Expose Armor ability by 5, and refunds 1 Combo Point when cast with 5 Combo Points.",
+        "Reduces the Energy cost of your Expose Armor ability by 10, and refunds 2 Combo Points when cast with 5 Combo Points."
        ],
        "status": "changed",
        "src": [
         "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
+        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
        ]
       },
       {
@@ -2832,34 +2882,38 @@
        "status": "same"
       },
       {
-       "id": "relentless-strikes",
-       "name": "Relentless Strikes",
+       "id": "vigor",
+       "name": "Vigor",
        "row": 3,
        "col": 1,
-       "max": 1,
+       "max": 2,
        "ranks": [
-        "Your finishing moves have a 20% chance per Combo Point to restore 25 Energy."
+        "Increases your maximum Energy by 5.",
+        "Increases your maximum Energy by 10."
        ],
        "status": "changed",
        "src": [
         "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
+        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
        ]
       },
       {
-       "id": "improved-expose-armor",
-       "name": "Improved Expose Armor",
+       "id": "blood-splatter",
+       "name": "Blood Splatter",
        "row": 3,
        "col": 2,
-       "max": 2,
+       "max": 1,
        "ranks": [
-        "Reduces the Energy cost of your Expose Armor ability by 5, and refunds 1 Combo Point when cast with 5 Combo Points.",
-        "Reduces the Energy cost of your Expose Armor ability by 10, and refunds 2 Combo Points when cast with 5 Combo Points."
+        "Increases the duration of your Rupture ability by 6 sec and your Garrote ability by 9 sec."
        ],
-       "status": "changed",
+       "status": "new",
        "src": [
-        "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
        ]
       },
       {
@@ -2867,19 +2921,19 @@
        "name": "Lethality",
        "row": 3,
        "col": 3,
-       "max": 5,
+       "max": 2,
        "ranks": [
-        "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 4%.",
-        "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 8%.",
-        "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 12%.",
-        "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 16%.",
+        "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 10%.",
         "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 20%."
        ],
        "status": "changed",
        "req": "malice",
        "src": [
         "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
+        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
        ]
       },
       {
@@ -2933,35 +2987,44 @@
        ]
       },
       {
-       "id": "vigor",
-       "name": "Vigor",
+       "id": "relentless-strikes",
+       "name": "Relentless Strikes",
        "row": 5,
        "col": 1,
-       "max": 2,
+       "max": 5,
        "ranks": [
-        "Increases your maximum Energy by 5.",
-        "Increases your maximum Energy by 10."
+        "Your finishing moves have a 4% chance per Combo Point to restore 25 Energy.",
+        "Your finishing moves have a 8% chance per Combo Point to restore 25 Energy.",
+        "Your finishing moves have a 12% chance per Combo Point to restore 25 Energy.",
+        "Your finishing moves have a 16% chance per Combo Point to restore 25 Energy.",
+        "Your finishing moves have a 20% chance per Combo Point to restore 25 Energy."
        ],
        "status": "changed",
        "src": [
         "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
+        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
        ]
       },
       {
-       "id": "mutilate",
-       "name": "Mutilate",
+       "id": "venom",
+       "name": "Venom",
        "row": 5,
        "col": 2,
        "max": 1,
        "ranks": [
-        "Instantly attacks with both weapons for 75% weapon damage plus an additional 13 with each weapon. Damage increased by 20% against Poisoned targets. Awards 2 Combo Points."
+        "Causes your Shank ability to increase your Poison damage by 30% and your chance to apply Poisons by 20% for 6 sec."
        ],
        "status": "new",
-       "cost": "60 Energy | Melee Range | Instant | Requires Daggers",
+       "cost": "25 Energy | 1 to 5 Combo Points | Instant",
        "src": [
         "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
+        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
        ]
       },
       {
@@ -2985,36 +3048,40 @@
        "name": "Seal Fate",
        "row": 6,
        "col": 3,
-       "max": 5,
+       "max": 3,
        "ranks": [
-        "Your critical strikes from abilities that add Combo Points have a 20% chance to add an additional Combo Point.",
-        "Your critical strikes from abilities that add Combo Points have a 40% chance to add an additional Combo Point.",
-        "Your critical strikes from abilities that add Combo Points have a 60% chance to add an additional Combo Point.",
-        "Your critical strikes from abilities that add Combo Points have a 80% chance to add an additional Combo Point.",
+        "Your critical strikes from abilities that add Combo Points have a 33% chance to add an additional Combo Point.",
+        "Your critical strikes from abilities that add Combo Points have a 66% chance to add an additional Combo Point.",
         "Your critical strikes from abilities that add Combo Points have a 100% chance to add an additional Combo Point."
        ],
        "status": "changed",
        "src": [
         "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
+        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
        ]
       },
       {
-       "id": "venom",
-       "name": "Venom",
+       "id": "mutilate",
+       "name": "Mutilate",
        "row": 7,
        "col": 2,
        "max": 1,
        "ranks": [
-        "Finishing move that increases the damage of your Poisons by 30% and your chance to apply Poisons by 10%. Lasts longer per combo point:\n 1 point : 9 sec\n 2 points: 12 sec\n 3 points: 15 sec\n 4 points: 18 sec\n 5 points: 21 sec"
+        "Instantly attacks with both weapons for 90% weapon damage plus an additional 40 with each weapon. Damage increased by 20% against Poisoned targets. Awards 2 Combo Points."
        ],
        "status": "new",
-       "req": "mutilate",
-       "cost": "25 Energy | 1 to 5 Combo Points | Instant",
+       "cost": "60 Energy | Melee Range | Instant | Requires Daggers",
        "src": [
         "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
-       ]
+        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
+       ],
+       "req": "venom"
       }
      ]
     },
@@ -3025,33 +3092,39 @@
      "confirmed": true,
      "talents": [
       {
-       "id": "improved-eviscerate",
-       "name": "Improved Eviscerate",
+       "id": "coup-de-grace",
+       "name": "Coup de Grace",
        "row": 1,
        "col": 1,
        "max": 3,
        "ranks": [
-        "Increases the damage done by your Eviscerate ability by 7%.",
-        "Increases the damage done by your Eviscerate ability by 13%.",
-        "Increases the damage done by your Eviscerate ability by 20%."
+        "Increases the damage done by your Eviscerate ability by 7%, and the damage and storage rate of your Death Mark ability by 7%.",
+        "Increases the damage done by your Eviscerate ability by 13%, and the damage and storage rate of your Death Mark ability by 13%.",
+        "Increases the damage done by your Eviscerate ability by 20%, and the damage and storage rate of your Death Mark ability by 20%."
        ],
-       "status": "changed",
+       "status": "new",
        "src": [
-        "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
        ]
       },
       {
-       "id": "improved-sinister-strike",
-       "name": "Improved Sinister Strike",
+       "id": "efficient-strikes",
+       "name": "Efficient Strikes",
        "row": 1,
        "col": 2,
        "max": 2,
        "ranks": [
-        "Reduces the Energy cost of your Sinister Strike ability by 3.",
-        "Reduces the Energy cost of your Sinister Strike ability by 5."
+        "Reduces the Energy cost of your Sinister Strike and Hemorrhage abilities by 3.",
+        "Reduces the Energy cost of your Sinister Strike and Hemorrhage abilities by 5."
        ],
-       "status": "same"
+       "status": "new",
+       "src": [
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
+       ]
       },
       {
        "id": "lightning-reflexes",
@@ -3120,6 +3193,23 @@
        ]
       },
       {
+       "id": "improved-sprint",
+       "name": "Improved Sprint",
+       "row": 2,
+       "col": 4,
+       "max": 2,
+       "ranks": [
+        "Gives a 50% chance to remove all movement impairing effects when you activate your Sprint ability.",
+        "Gives a 100% chance to remove all movement impairing effects when you activate your Sprint ability."
+       ],
+       "status": "changed",
+       "src": [
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
+       ]
+      },
+      {
        "id": "endurance",
        "name": "Endurance",
        "row": 3,
@@ -3149,16 +3239,21 @@
        "cost": "10 Energy | Melee Range | Instant | 6 sec cooldown"
       },
       {
-       "id": "improved-sprint",
-       "name": "Improved Sprint",
+       "id": "composure",
+       "name": "Composure",
        "row": 3,
        "col": 4,
        "max": 2,
        "ranks": [
-        "Gives a 50% chance to remove all movement impairing effects when you activate your Sprint ability.",
-        "Gives a 100% chance to remove all movement impairing effects when you activate your Sprint ability."
+        "Increases the Energy cost reduction of your Poised ability by 5.",
+        "Increases the Energy cost reduction of your Poised ability by 10."
        ],
-       "status": "same"
+       "status": "new",
+       "src": [
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
+       ]
       },
       {
        "id": "improved-kick",
@@ -3183,32 +3278,75 @@
        "col": 2,
        "max": 1,
        "ranks": [
-        "Reduces the Energy cost of your Eviscerate ability by 10."
+        "Reduces the Energy cost of your Eviscerate ability by 15."
        ],
        "status": "new",
        "src": [
         "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
+        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
        ]
       },
       {
-       "id": "dual-wield-specialization",
-       "name": "Dual Wield Specialization",
+       "id": "weapon-expertise",
+       "name": "Weapon Expertise",
        "row": 4,
        "col": 3,
-       "max": 5,
+       "max": 2,
        "ranks": [
-        "Increases the damage done by your off-hand weapon by 5%.",
-        "Increases the damage done by your off-hand weapon by 10%.",
-        "Increases the damage done by your off-hand weapon by 15%.",
-        "Increases the damage done by your off-hand weapon by 20%.",
-        "Increases the damage done by your off-hand weapon by 25%."
+        "Reduces the chance for your attacks to be Dodged or Parried by 1%.",
+        "Reduces the chance for your attacks to be Dodged or Parried by 2%."
        ],
        "status": "changed",
        "req": "precision",
        "src": [
         "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
+        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
+       ]
+      },
+      {
+       "id": "aggression",
+       "name": "Aggression",
+       "row": 4,
+       "col": 4,
+       "max": 3,
+       "ranks": [
+        "Increases the damage of your Sinister Strike and Eviscerate abilities by 5%.",
+        "Increases the damage of your Sinister Strike and Eviscerate abilities by 10%.",
+        "Increases the damage of your Sinister Strike and Eviscerate abilities by 15%."
+       ],
+       "status": "changed",
+       "src": [
+        "https://wowforevertalents.com/rogue/",
+        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
+       ]
+      },
+      {
+       "id": "dual-wield-specialization",
+       "name": "Dual Wield Specialization",
+       "row": 5,
+       "col": 1,
+       "max": 2,
+       "ranks": [
+        "Increases the damage done by your off-hand weapon by 25%.",
+        "Increases the damage done by your off-hand weapon by 50%."
+       ],
+       "status": "changed",
+       "req": "precision",
+       "src": [
+        "https://wowforevertalents.com/rogue/",
+        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
        ]
       },
       {
@@ -3234,50 +3372,39 @@
        "col": 3,
        "max": 5,
        "ranks": [
-        "Gives your melee weapon attacks a benefit depending on the weapon.\n\n Axe/Sword: Your successful\n melee attacks have a 1% chance\n to trigger an extra attack on the \n target.\n\n Dagger/Fist: Increases your\n critical strike chance by 1%.\n\n Mace: Your attacks ignore 3% of\n your target's armor.",
-        "Gives your melee weapon attacks a benefit depending on the weapon.\n\n Axe/Sword: Your successful\n melee attacks have a 2% chance\n to trigger an extra attack on the \n target.\n\n Dagger/Fist: Increases your\n critical strike chance by 2%.\n\n Mace: Your attacks ignore 6% of\n your target's armor.",
-        "Gives your melee weapon attacks a benefit depending on the weapon.\n\n Axe/Sword: Your successful\n melee attacks have a 3% chance\n to trigger an extra attack on the \n target.\n\n Dagger/Fist: Increases your\n critical strike chance by 3%.\n\n Mace: Your attacks ignore 9% of\n your target's armor.",
-        "Gives your melee weapon attacks a benefit depending on the weapon.\n\n Axe/Sword: Your successful\n melee attacks have a 4% chance\n to trigger an extra attack on the \n target.\n\n Dagger/Fist: Increases your\n critical strike chance by 4%.\n\n Mace: Your attacks ignore 12% of\n your target's armor.",
-        "Gives your melee weapon attacks a benefit depending on the weapon.\n\n Axe/Sword: Your successful\n melee attacks have a 5% chance\n to trigger an extra attack on the \n target.\n\n Dagger/Fist: Increases your\n critical strike chance by 5%.\n\n Mace: Your attacks ignore 15% of\n your target's armor."
+        "Gives your melee weapon attacks a benefit depending on the weapon.\n\nAxe/Sword: Your successful\nmelee attacks have a 1% chance\nto trigger an extra attack on the\ntarget.\n\nDagger/Fist: Increases your\ncritical strike chance by 1%.\n\nMace: Your attacks ignore 3% of\nyour target's armor.",
+        "Gives your melee weapon attacks a benefit depending on the weapon.\n\nAxe/Sword: Your successful\nmelee attacks have a 2% chance\nto trigger an extra attack on the\ntarget.\n\nDagger/Fist: Increases your\ncritical strike chance by 2%.\n\nMace: Your attacks ignore 6% of\nyour target's armor.",
+        "Gives your melee weapon attacks a benefit depending on the weapon.\n\nAxe/Sword: Your successful\nmelee attacks have a 3% chance\nto trigger an extra attack on the\ntarget.\n\nDagger/Fist: Increases your\ncritical strike chance by 3%.\n\nMace: Your attacks ignore 9% of\nyour target's armor.",
+        "Gives your melee weapon attacks a benefit depending on the weapon.\n\nAxe/Sword: Your successful\nmelee attacks have a 4% chance\nto trigger an extra attack on the\ntarget.\n\nDagger/Fist: Increases your\ncritical strike chance by 4%.\n\nMace: Your attacks ignore 12% of\nyour target's armor.",
+        "Gives your melee weapon attacks a benefit depending on the weapon.\n\nAxe/Sword: Your successful\nmelee attacks have a 5% chance\nto trigger an extra attack on the\ntarget.\n\nDagger/Fist: Increases your\ncritical strike chance by 5%.\n\nMace: Your attacks ignore 15% of\nyour target's armor."
        ],
        "status": "changed",
        "src": [
         "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
+        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
        ]
       },
       {
-       "id": "weapon-expertise",
-       "name": "Weapon Expertise",
-       "row": 6,
-       "col": 2,
-       "max": 2,
-       "ranks": [
-        "Reduces the chance for your attacks to be Dodged or Parried by 1%.",
-        "Reduces the chance for your attacks to be Dodged or Parried by 2%."
-       ],
-       "status": "changed",
-       "req": "blade-flurry",
-       "src": [
-        "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
-       ]
-      },
-      {
-       "id": "aggression",
-       "name": "Aggression",
+       "id": "flash-of-steel",
+       "name": "Flash of Steel",
        "row": 6,
        "col": 3,
-       "max": 3,
+       "max": 5,
        "ranks": [
-        "Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by 2%.",
-        "Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by 4%.",
-        "Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by 6%."
+        "Increases the Energy generated by your Shank ability by 3 and reduces its cooldown by 0.4 sec.",
+        "Increases the Energy generated by your Shank ability by 6 and reduces its cooldown by 0.8 sec.",
+        "Increases the Energy generated by your Shank ability by 9 and reduces its cooldown by 1.2 sec.",
+        "Increases the Energy generated by your Shank ability by 12 and reduces its cooldown by 1.6 sec.",
+        "Increases the Energy generated by your Shank ability by 15 and reduces its cooldown by 2.0 sec."
        ],
-       "status": "changed",
+       "status": "new",
        "src": [
-        "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
        ]
       },
       {
@@ -3290,7 +3417,8 @@
         "Increases your Energy regeneration rate by 100% for 15 sec."
        ],
        "status": "same",
-       "cost": "Instant | 5 min cooldown"
+       "cost": "Instant | 5 min cooldown",
+       "req": "blade-flurry"
       }
      ]
     },
@@ -3301,22 +3429,23 @@
      "confirmed": true,
      "talents": [
       {
-       "id": "camouflage",
-       "name": "Camouflage",
+       "id": "setup",
+       "name": "Setup",
        "row": 1,
        "col": 1,
-       "max": 5,
+       "max": 3,
        "ranks": [
-        "Reduces your speed penalty from your Stealth ability by 3% and reduces its cooldown by 2 sec.",
-        "Reduces your speed penalty from your Stealth ability by 6% and reduces its cooldown by 3 sec.",
-        "Reduces your speed penalty from your Stealth ability by 9% and reduces its cooldown by 4 sec.",
-        "Reduces your speed penalty from your Stealth ability by 12% and reduces its cooldown by 5 sec.",
-        "Reduces your speed penalty from your Stealth ability by 15% and reduces its cooldown by 6 sec."
+        "Gives you a 15% chance to add a Combo Point to your target after Dodging their attack or fully resisting one of their spells.",
+        "Gives you a 30% chance to add a Combo Point to your target after Dodging their attack or fully resisting one of their spells.",
+        "Gives you a 45% chance to add a Combo Point to your target after Dodging their attack or fully resisting one of their spells."
        ],
        "status": "changed",
        "src": [
         "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
+        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
        ]
       },
       {
@@ -3341,55 +3470,85 @@
        "name": "Opportunity",
        "row": 1,
        "col": 3,
-       "max": 2,
+       "max": 5,
        "ranks": [
-        "Increases the damage dealt by your Backstab, Garrote, Ambush, and Mutilate abilities by 5%.",
-        "Increases the damage dealt by your Backstab, Garrote, Ambush, and Mutilate abilities by 10%."
+        "Increases the damage dealt by your Backstab, Garrote, Ambush, and Mutilate abilities by 4%.",
+        "Increases the damage dealt by your Backstab, Garrote, Ambush, and Mutilate abilities by 8%.",
+        "Increases the damage dealt by your Backstab, Garrote, Ambush, and Mutilate abilities by 12%.",
+        "Increases the damage dealt by your Backstab, Garrote, Ambush, and Mutilate abilities by 16%.",
+        "Increases the damage dealt by your Backstab, Garrote, Ambush, and Mutilate abilities by 20%."
        ],
        "status": "changed",
        "src": [
         "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
+        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
        ]
       },
       {
-       "id": "setup",
-       "name": "Setup",
+       "id": "dirty-deeds",
+       "name": "Dirty Deeds",
        "row": 2,
        "col": 1,
-       "max": 3,
+       "max": 2,
        "ranks": [
-        "Gives you a 33% chance to add a Combo Point to your target after Dodging one of their attacks or fully resisting one of their spells.",
-        "Gives you a 67% chance to add a Combo Point to your target after Dodging one of their attacks or fully resisting one of their spells.",
-        "Gives you a 100% chance to add a Combo Point to your target after Dodging one of their attacks or fully resisting one of their spells."
+        "Reduces the Energy cost of your Cheap Shot and Garrote abilities by 10, and your Garrote ability no longer requires you to be behind your target.",
+        "Reduces the Energy cost of your Cheap Shot and Garrote abilities by 20, and your Garrote ability no longer requires you to be behind your target."
        ],
        "status": "changed",
        "src": [
         "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
+        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
        ]
       },
       {
-       "id": "elusiveness",
-       "name": "Elusiveness",
+       "id": "camouflage",
+       "name": "Camouflage",
        "row": 2,
        "col": 2,
-       "max": 2,
+       "max": 3,
        "ranks": [
-        "Reduces the cooldown of your Vanish and Blind abilities by 45 sec.",
-        "Reduces the cooldown of your Vanish and Blind abilities by 90 sec."
+        "Reduces your speed penalty from your Stealth ability by 5% and reduces its cooldown by 2 sec.",
+        "Reduces your speed penalty from your Stealth ability by 10% and reduces its cooldown by 4 sec.",
+        "Reduces your speed penalty from your Stealth ability by 15% and reduces its cooldown by 6 sec."
        ],
        "status": "changed",
        "src": [
         "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
+        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
+       ]
+      },
+      {
+       "id": "improved-ambush",
+       "name": "Improved Ambush",
+       "row": 2,
+       "col": 3,
+       "max": 3,
+       "ranks": [
+        "Increases the critical strike chance of your Ambush ability by 15%.",
+        "Increases the critical strike chance of your Ambush ability by 30%.",
+        "Increases the critical strike chance of your Ambush ability by 45%."
+       ],
+       "status": "changed",
+       "src": [
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
        ]
       },
       {
        "id": "dirty-tricks",
        "name": "Dirty Tricks",
        "row": 2,
-       "col": 3,
+       "col": 4,
        "max": 2,
        "ranks": [
         "Reduces the Energy cost of your Sap and Blind abilities by 25%.",
@@ -3398,21 +3557,11 @@
        "status": "new",
        "src": [
         "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
+        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
        ]
-      },
-      {
-       "id": "improved-ambush",
-       "name": "Improved Ambush",
-       "row": 2,
-       "col": 4,
-       "max": 3,
-       "ranks": [
-        "Increases the critical strike chance of your Ambush ability by 15%.",
-        "Increases the critical strike chance of your Ambush ability by 30%.",
-        "Increases the critical strike chance of your Ambush ability by 45%."
-       ],
-       "status": "same"
       },
       {
        "id": "initiative",
@@ -3432,57 +3581,9 @@
        ]
       },
       {
-       "id": "ghostly-strike",
-       "name": "Ghostly Strike",
-       "row": 3,
-       "col": 2,
-       "max": 1,
-       "ranks": [
-        "A strike that deals 125% (180% if a Dagger is equipped in your Main Hand) weapon damage and increases your chance to dodge by 15% for 7 sec. Awards 1 combo point."
-       ],
-       "status": "changed",
-       "cost": "40 Energy | Melee Range | Instant | 20 sec cooldown",
-       "src": [
-        "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
-       ]
-      },
-      {
-       "id": "improved-distract",
-       "name": "Improved Distract",
-       "row": 3,
-       "col": 3,
-       "max": 2,
-       "ranks": [
-        "Increases the radius of your Distract ability by 3 yds, and further reduces the Stealth detection of distracted enemies as though they were an additional 1 level lower.",
-        "Increases the radius of your Distract ability by 5 yds, and further reduces the Stealth detection of distracted enemies as though they were an additional 2 levels lower."
-       ],
-       "status": "new",
-       "src": [
-        "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
-       ]
-      },
-      {
-       "id": "heightened-senses",
-       "name": "Heightened Senses",
-       "row": 4,
-       "col": 1,
-       "max": 2,
-       "ranks": [
-        "Increases your Stealth detection as if you were 1 level higher and reduces your chance to be hit by spells and ranged attacks by 2%.",
-        "Increases your Stealth detection as if you were 3 levels higher and reduces your chance to be hit by spells and ranged attacks by 4%."
-       ],
-       "status": "changed",
-       "src": [
-        "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
-       ]
-      },
-      {
        "id": "premeditation",
        "name": "Premeditation",
-       "row": 4,
+       "row": 3,
        "col": 2,
        "max": 1,
        "ranks": [
@@ -3492,13 +3593,16 @@
        "cost": "20 yd range | Instant | 2 min cooldown",
        "src": [
         "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
+        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
        ]
       },
       {
        "id": "serrated-blades",
        "name": "Serrated Blades",
-       "row": 4,
+       "row": 3,
        "col": 3,
        "max": 3,
        "ranks": [
@@ -3509,23 +3613,85 @@
        "status": "changed",
        "src": [
         "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
+        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
        ]
       },
       {
-       "id": "dirty-deeds",
-       "name": "Dirty Deeds",
-       "row": 5,
+       "id": "elusiveness",
+       "name": "Elusiveness",
+       "row": 4,
        "col": 1,
        "max": 2,
        "ranks": [
-        "Reduces the Energy cost of your Cheap Shot and Garrote abilities by 10, and your Garrote ability no longer requires you to be behind your target.",
-        "Reduces the Energy cost of your Cheap Shot and Garrote abilities by 20, and your Garrote ability no longer requires you to be behind your target."
+        "Reduces the cooldown of your Vanish and Blind abilities by 45 sec.",
+        "Reduces the cooldown of your Vanish and Blind abilities by 90 sec."
        ],
        "status": "changed",
        "src": [
         "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
+        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
+       ]
+      },
+      {
+       "id": "ghostly-strike",
+       "name": "Ghostly Strike",
+       "row": 4,
+       "col": 2,
+       "max": 1,
+       "ranks": [
+        "A strike that deals 125% (180% if a Dagger is equipped in your Main Hand) weapon damage, increases your chance to dodge by 15% for 7 sec, and causes your next Ambush or Garrote cast within 7 sec to not require Stealth. Awards 1 combo point."
+       ],
+       "status": "changed",
+       "cost": "40 Energy | Melee Range | Instant | 20 sec cooldown",
+       "src": [
+        "https://wowforevertalents.com/rogue/",
+        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
+       ]
+      },
+      {
+       "id": "quick-getaway",
+       "name": "Quick Getaway",
+       "row": 4,
+       "col": 4,
+       "max": 2,
+       "ranks": [
+        "Increases the maximum number of targets you may have Sapped by 1, and increases your movement speed by 15% for 3 sec after Sapping a target.",
+        "Increases the maximum number of targets you may have Sapped by 1, and increases your movement speed by 30% for 3 sec after Sapping a target."
+       ],
+       "status": "new",
+       "src": [
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
+       ],
+       "req": "dirty-tricks"
+      },
+      {
+       "id": "heightened-senses",
+       "name": "Heightened Senses",
+       "row": 5,
+       "col": 1,
+       "max": 2,
+       "ranks": [
+        "Increases your Stealth detection as if you were 1 level higher and reduces your chance to be hit by spells and ranged attacks by 2%.",
+        "Increases your Stealth detection as if you were 3 levels higher and reduces your chance to be hit by spells and ranged attacks by 4%."
+       ],
+       "status": "changed",
+       "src": [
+        "https://wowforevertalents.com/rogue/",
+        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
        ]
       },
       {
@@ -3547,70 +3713,56 @@
        "col": 3,
        "max": 1,
        "ranks": [
-        "An instant strike that deals 100% weapon damage (145% if a Dagger is equipped) and causes the target to take 15% increased Rupture damage from the Rogue. Lasts 15 sec. Awards 1 Combo Point."
+        "An instant strike that deals 100% weapon damage (145% if a Dagger is equipped) and causes the target to take 15% increased Rupture and Garrote damage from the Rogue. Lasts 15 sec. Awards 1 Combo Point."
        ],
        "status": "changed",
        "req": "serrated-blades",
        "cost": "35 Energy | Melee Range | Instant",
        "src": [
         "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
+        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
        ]
       },
       {
-       "id": "quietus",
-       "name": "Quietus",
-       "row": 6,
-       "col": 1,
-       "max": 5,
-       "ranks": [
-        "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 2% more damage against targets below 35% health.",
-        "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 4% more damage against targets below 35% health.",
-        "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 6% more damage against targets below 35% health.",
-        "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 8% more damage against targets below 35% health.",
-        "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 10% more damage against targets below 35% health."
-       ],
-       "status": "new",
-       "req": "dirty-deeds",
-       "src": [
-        "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
-       ]
-      },
-      {
-       "id": "cutthroat",
-       "name": "Cutthroat",
+       "id": "boot-knife",
+       "name": "Boot Knife",
        "row": 6,
        "col": 3,
        "max": 5,
        "ranks": [
-        "Your Backstab has a 3% chance to cause your next Ambush within 10 sec to not require Stealth.",
-        "Your Backstab has a 6% chance to cause your next Ambush within 10 sec to not require Stealth.",
-        "Your Backstab has a 9% chance to cause your next Ambush within 10 sec to not require Stealth.",
-        "Your Backstab has a 12% chance to cause your next Ambush within 10 sec to not require Stealth.",
-        "Your Backstab has a 15% chance to cause your next Ambush within 10 sec to not require Stealth."
+        "Grants your Shank ability a 20% chance to add 2 Combo Points to the target.",
+        "Grants your Shank ability a 40% chance to add 2 Combo Points to the target.",
+        "Grants your Shank ability a 60% chance to add 2 Combo Points to the target.",
+        "Grants your Shank ability a 80% chance to add 2 Combo Points to the target.",
+        "Grants your Shank ability a 100% chance to add 2 Combo Points to the target."
        ],
        "status": "new",
        "src": [
-        "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
        ]
       },
       {
-       "id": "thousand-cuts",
-       "name": "Thousand Cuts",
+       "id": "death-mark",
+       "name": "Death Mark",
        "row": 7,
        "col": 2,
        "max": 1,
        "ranks": [
-        "When your Rupture ability deals periodic damage, the Energy cost of your next Hemorrhage or Backstab ability within 10 sec is reduced by 3, stacking up to 5 times."
+        "Finishing move that marks the target, storing a portion of the damage dealt by your attacks per Combo Point. Garrote and Rupture damage is stored at twice the rate. After 6 sec, the stored damage is dealt, up to a maximum increased by Attack Power and Critical Strike chance."
        ],
        "status": "new",
-       "req": "preparation",
        "src": [
-        "https://wowforevertalents.com/rogue/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
-       ]
+        "https://wowfdb.com/talents/rogue/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
+       ],
+       "req": "preparation",
+       "cost": "25 Energy | 20 yd range | Instant | 10 sec cooldown"
       }
      ]
     }
@@ -3888,20 +4040,23 @@
        "col": 3,
        "max": 5,
        "ranks": [
-        "Your heals from Flash Heal, Binding Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 2% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 1 sec.",
-        "Your heals from Flash Heal, Binding Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 4% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 2 sec.",
-        "Your heals from Flash Heal, Binding Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 6% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 3 sec.",
-        "Your heals from Flash Heal, Binding Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 8% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 4 sec.",
-        "Your heals from Flash Heal, Binding Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 10% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 5 sec."
+        "Your heals from Flash Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 2% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 1 sec.",
+        "Your heals from Flash Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 4% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 2 sec.",
+        "Your heals from Flash Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 6% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 3 sec.",
+        "Your heals from Flash Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 8% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 4 sec.",
+        "Your heals from Flash Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 10% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 5 sec."
        ],
        "status": "new",
        "req": "soul-warding",
-       "note": "Blizzard's deep dive includes Binding Heal in this list. The 70707 class-page tooltip omits it. The percents are the client ranks.",
        "src": [
         "https://wowforevertalents.com/patch-notes/",
         "https://www.wowhead.com/forever/news/massive-talent-tree-changes-to-druids-and-paladins-class-tuning-for-wow-forever-383670",
         "https://wowforevertalents.com/priest/",
-        "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior"
+        "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior",
+        "https://wowfdb.com/talents/priest/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
        ]
       },
       {
@@ -4513,8 +4668,7 @@
       }
      ]
     }
-   ],
-   "note": "Renewed Hope includes Binding Heal, as in Blizzard's deep dive. The 70707 class-page tooltip omits that name."
+   ]
   },
   {
    "id": "shaman",
@@ -4533,16 +4687,20 @@
        "col": 2,
        "max": 5,
        "ranks": [
-        "Reduces the mana cost of your Shock, Lightning Bolt, Lava Burst, and Chain Lightning spells by 2%.",
-        "Reduces the mana cost of your Shock, Lightning Bolt, Lava Burst, and Chain Lightning spells by 4%.",
-        "Reduces the mana cost of your Shock, Lightning Bolt, Lava Burst, and Chain Lightning spells by 6%.",
-        "Reduces the mana cost of your Shock, Lightning Bolt, Lava Burst, and Chain Lightning spells by 8%.",
-        "Reduces the mana cost of your Shock, Lightning Bolt, Lava Burst, and Chain Lightning spells by 10%."
+        "Reduces the mana cost of your Shock, Lightning Bolt, and Chain Lightning spells by 2%.",
+        "Reduces the mana cost of your Shock, Lightning Bolt, and Chain Lightning spells by 4%.",
+        "Reduces the mana cost of your Shock, Lightning Bolt, and Chain Lightning spells by 6%.",
+        "Reduces the mana cost of your Shock, Lightning Bolt, and Chain Lightning spells by 8%.",
+        "Reduces the mana cost of your Shock, Lightning Bolt, and Chain Lightning spells by 10%."
        ],
        "status": "changed",
        "src": [
         "https://wowforevertalents.com/shaman/",
-        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman"
+        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman",
+        "https://wowfdb.com/talents/shaman/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
        ]
       },
       {
@@ -4603,14 +4761,18 @@
        "col": 3,
        "max": 3,
        "ranks": [
-        "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.17 sec.",
-        "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.33 sec.",
-        "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.50 sec."
+        "Reduces the cast time of your Lightning Bolt and Chain Lightning spells by 0.17 sec.",
+        "Reduces the cast time of your Lightning Bolt and Chain Lightning spells by 0.33 sec.",
+        "Reduces the cast time of your Lightning Bolt and Chain Lightning spells by 0.50 sec."
        ],
        "status": "changed",
        "src": [
         "https://wowforevertalents.com/shaman/",
-        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman"
+        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman",
+        "https://wowfdb.com/talents/shaman/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
        ]
       },
       {
@@ -4620,14 +4782,18 @@
        "col": 4,
        "max": 3,
        "ranks": [
-        "Increases the damage done by your Fire Totems and by your Flame Shock, Fire Nova, and Lava Burst spells by 5%, as well as increases the duration of your Flame Shock spell by 3 sec.",
-        "Increases the damage done by your Fire Totems and by your Flame Shock, Fire Nova, and Lava Burst spells by 10%, as well as increases the duration of your Flame Shock spell by 6 sec.",
-        "Increases the damage done by your Fire Totems and by your Flame Shock, Fire Nova, and Lava Burst spells by 15%, as well as increases the duration of your Flame Shock spell by 9 sec."
+        "Increases the damage done by your Fire Totems and by your Flame Shock and Fire Nova spells by 5%, as well as increases the duration of your Flame Shock spell by 3 sec.",
+        "Increases the damage done by your Fire Totems and by your Flame Shock and Fire Nova spells by 10%, as well as increases the duration of your Flame Shock spell by 6 sec.",
+        "Increases the damage done by your Fire Totems and by your Flame Shock and Fire Nova spells by 15%, as well as increases the duration of your Flame Shock spell by 9 sec."
        ],
        "status": "changed",
        "src": [
         "https://wowforevertalents.com/shaman/",
-        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman"
+        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman",
+        "https://wowfdb.com/talents/shaman/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
        ]
       },
       {
@@ -4681,14 +4847,18 @@
        "col": 2,
        "max": 3,
        "ranks": [
-        "Gives your Lightning Bolt, Chain Lightning, and Lava Burst spells a 23% chance to not lose casting time when you take damage.",
-        "Gives your Lightning Bolt, Chain Lightning, and Lava Burst spells a 47% chance to not lose casting time when you take damage.",
-        "Gives your Lightning Bolt, Chain Lightning, and Lava Burst spells a 70% chance to not lose casting time when you take damage."
+        "Gives your Lightning Bolt and Chain Lightning spells a 23% chance to not lose casting time when you take damage.",
+        "Gives your Lightning Bolt and Chain Lightning spells a 47% chance to not lose casting time when you take damage.",
+        "Gives your Lightning Bolt and Chain Lightning spells a 70% chance to not lose casting time when you take damage."
        ],
        "status": "changed",
        "src": [
         "https://wowforevertalents.com/shaman/",
-        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman"
+        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman",
+        "https://wowfdb.com/talents/shaman/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
        ]
       },
       {
@@ -4713,30 +4883,34 @@
        "col": 1,
        "max": 2,
        "ranks": [
-        "Increases the range of your Lightning Bolt, Chain Lightning, Fire Nova, and Lava Burst spells by 3 yards and reduces the cooldown of Totemic Projection by 10 sec.",
-        "Increases the range of your Lightning Bolt, Chain Lightning, Fire Nova, and Lava Burst spells by 6 yards and reduces the cooldown of Totemic Projection by 20 sec."
+        "Increases the range of your Lightning Bolt, Chain Lightning, and Fire Nova spells by 3 yards.",
+        "Increases the range of your Lightning Bolt, Chain Lightning, and Fire Nova spells by 6 yards."
        ],
        "status": "changed",
        "src": [
         "https://wowforevertalents.com/shaman/",
-        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman"
+        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman",
+        "https://wowfdb.com/talents/shaman/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
        ]
       },
       {
-       "id": "lava-burst",
-       "name": "Lava Burst",
+       "id": "call-of-thunder",
+       "name": "Call of Thunder",
        "row": 5,
        "col": 2,
        "max": 1,
        "ranks": [
-        "You hurl molten lava at the target, dealing 113 to 145 Fire damage. If your Flame Shock is on the target, Lava Burst deals 20% increased damage."
+        "Increases the critical strike chance of your Lightning Bolt and Chain Lightning spells by 5%."
        ],
        "status": "new",
-       "cost": "135 Mana | 30 yd range | 2.5 sec cast | 10 sec cooldown",
-       "note": "Deep dive put Lava Burst at 31 points. Build 70707 puts it at 20 points.",
        "src": [
-        "https://wowforevertalents.com/shaman/",
-        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman"
+        "https://wowfdb.com/talents/shaman/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
        ]
       },
       {
@@ -4746,15 +4920,19 @@
        "col": 3,
        "max": 3,
        "ranks": [
-        "Gives your Lightning Bolt and Chain Lightning spells a 3% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat.",
-        "Gives your Lightning Bolt and Chain Lightning spells a 7% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat.",
-        "Gives your Lightning Bolt and Chain Lightning spells a 10% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat."
+        "Gives your Lightning Bolt and Chain Lightning spells a 10% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat.",
+        "Gives your Lightning Bolt and Chain Lightning spells a 20% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat.",
+        "Gives your Lightning Bolt and Chain Lightning spells a 30% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat."
        ],
        "status": "new",
        "req": "elemental-alacrity",
        "src": [
         "https://wowforevertalents.com/shaman/",
-        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman"
+        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman",
+        "https://wowfdb.com/talents/shaman/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
        ]
       },
       {
@@ -4778,21 +4956,24 @@
        ]
       },
       {
-       "id": "elemental-mastery",
-       "name": "Elemental Mastery",
+       "id": "lightning-mastery",
+       "name": "Lightning Mastery",
        "row": 7,
        "col": 2,
        "max": 1,
        "ranks": [
-        "Gain mastery over Fire and Lightning, reducing the cast time of Lightning Bolt and Lava Burst by 0.5 sec, and removing the cooldown from Chain Lightning. Lasts 15 sec."
+        "Gain mastery over Lightning, reducing the cast time of your Lightning Bolt spell by 0.5 sec, and removing the cooldown from your Chain Lightning spell. Lasts 15 sec."
        ],
        "status": "changed",
-       "req": "lava-burst",
+       "req": "call-of-thunder",
        "cost": "Instant | 3 min cooldown",
-       "note": "Deep dive removed Elemental Mastery. Build 70707 keeps this 31-point talent.",
        "src": [
         "https://wowforevertalents.com/shaman/",
-        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman"
+        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman",
+        "https://wowfdb.com/talents/shaman/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
        ]
       }
      ]
@@ -4872,30 +5053,18 @@
        "col": 2,
        "max": 3,
        "ranks": [
-        "Increases your Attack Power by an amount equal to 33% of your Intellect.",
-        "Increases your Attack Power by an amount equal to 67% of your Intellect.",
-        "Increases your Attack Power by an amount equal to 100% of your Intellect."
+        "Increases your Attack Power by an amount equal to 50% of your Intellect.",
+        "Increases your Attack Power by an amount equal to 100% of your Intellect.",
+        "Increases your Attack Power by an amount equal to 150% of your Intellect."
        ],
        "status": "new",
        "src": [
         "https://wowforevertalents.com/shaman/",
-        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman"
-       ]
-      },
-      {
-       "id": "improved-ghost-wolf",
-       "name": "Improved Ghost Wolf",
-       "row": 2,
-       "col": 3,
-       "max": 2,
-       "ranks": [
-        "Reduces the cast time of your Ghost Wolf spell by 1.0 sec, and Ghost Wolf may be used indoors.",
-        "Reduces the cast time of your Ghost Wolf spell by 3.0 sec, and Ghost Wolf may be used indoors."
-       ],
-       "status": "changed",
-       "src": [
-        "https://wowforevertalents.com/shaman/",
-        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman"
+        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman",
+        "https://wowfdb.com/talents/shaman/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
        ]
       },
       {
@@ -4986,17 +5155,21 @@
        "col": 2,
        "max": 5,
        "ranks": [
-        "Increases your attack speed by 5% for your next 3 swings after dealing a melee critical strike.",
-        "Increases your attack speed by 10% for your next 3 swings after dealing a melee critical strike.",
-        "Increases your attack speed by 15% for your next 3 swings after dealing a melee critical strike.",
-        "Increases your attack speed by 20% for your next 3 swings after dealing a melee critical strike.",
-        "Increases your attack speed by 25% for your next 3 swings after dealing a melee critical strike."
+        "Increases your attack speed by 6% for your next 3 swings after dealing a melee critical strike.",
+        "Increases your attack speed by 12% for your next 3 swings after dealing a melee critical strike.",
+        "Increases your attack speed by 18% for your next 3 swings after dealing a melee critical strike.",
+        "Increases your attack speed by 24% for your next 3 swings after dealing a melee critical strike.",
+        "Increases your attack speed by 30% for your next 3 swings after dealing a melee critical strike."
        ],
        "status": "changed",
        "req": "mental-dexterity",
        "src": [
         "https://wowforevertalents.com/shaman/",
-        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman"
+        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman",
+        "https://wowfdb.com/talents/shaman/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
        ]
       },
       {
@@ -5006,13 +5179,37 @@
        "col": 3,
        "max": 1,
        "ranks": [
-        "Instantly strike for normal weapon damage and increase the damage you deal to the target with your next Lightning Bolt, Chain Lightning, or Earth Shock spell by 20% for 12 sec."
+        "Instantly strike for 150% weapon damage and increase the damage you deal to the target with your next Lightning Bolt, Chain Lightning, or Earth Shock spell by 20% for 12 sec."
        ],
        "status": "changed",
-       "cost": "8% of base mana | Melee Range | Instant | 8 sec cooldown",
+       "cost": "8% of base mana | Melee Range | Instant | 6 sec cooldown",
        "src": [
         "https://wowforevertalents.com/shaman/",
-        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman"
+        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman",
+        "https://wowfdb.com/talents/shaman/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
+       ]
+      },
+      {
+       "id": "improved-ghost-wolf",
+       "name": "Improved Ghost Wolf",
+       "row": 4,
+       "col": 4,
+       "max": 2,
+       "ranks": [
+        "Reduces the cast time of your Ghost Wolf spell by 1.0 sec, and Ghost Wolf may be used indoors.",
+        "Reduces the cast time of your Ghost Wolf spell by 3.0 sec, and Ghost Wolf may be used indoors."
+       ],
+       "status": "changed",
+       "src": [
+        "https://wowforevertalents.com/shaman/",
+        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman",
+        "https://wowfdb.com/talents/shaman/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
        ]
       },
       {
@@ -5365,20 +5562,24 @@
        "col": 2,
        "max": 1,
        "ranks": [
-        "Heals a friendly target for 485 to 533, an additional 445 over 15 sec, and increases the effectiveness of your Chain Heal casts directly on that target by 25%."
+        "Heals a friendly target for 445 over 15 sec, and increases the effectiveness of your Chain Heal casts directly on that target by 25%."
        ],
        "status": "new",
        "req": "healing-way",
-       "cost": "245 Mana | 40 yd range | Instant | 6 sec cooldown",
+       "cost": "245 Mana | 40 yd range | Instant | 12 sec cooldown",
        "src": [
         "https://wowforevertalents.com/shaman/",
-        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman"
+        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman",
+        "https://wowfdb.com/talents/shaman/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
        ]
       }
      ]
     }
    ],
-   "note": "Blizzard's deep dive removed Elemental Mastery and put Lava Burst at 31 points. Build 70707 keeps Elemental Mastery at 31 points and Lava Burst at 20."
+   "note": "Nov 2 development notes: Lava Burst is removed and Call of Thunder replaces it. Elemental Mastery is renamed Lightning Mastery. Riptide no longer has an initial heal and its cooldown is 12 seconds; the notes describe the mana cost as about 40% lower without an exact number, so the listed mana cost is the previous client value."
   },
   {
    "id": "mage",
@@ -6571,14 +6772,18 @@
        "col": 2,
        "max": 1,
        "ranks": [
-        "Tears the target apart from within, inflicting 36 Shadow damage every 1 sec and increasing the damage they take from your other Shadow damage over time effects by 10% for 6 sec."
+        "Tears the target apart from within, inflicting 86 Shadow damage every 1 sec and increasing the damage they take from your other Shadow damage over time effects by 10% for 6 sec."
        ],
        "status": "new",
        "req": "siphon-life",
        "cost": "200 Mana | 30 yd range | Channeled",
        "src": [
         "https://wowforevertalents.com/warlock/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
+        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "https://wowfdb.com/talents/warlock/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
        ]
       }
      ]
@@ -7155,16 +7360,20 @@
        "col": 3,
        "max": 5,
        "ranks": [
-        "Hitting an enemy with Conflagrate increases all Shadow damage you deal by 2% for 20 sec, and hitting an enemy with Shadowburn increases all Fire damage you deal by 2% for 20 sec. In addition, Conflagrate has a 20% chance not to consume Immolate, and Shadowburn has a 20% chance to instantly refund a Soul Shard.",
-        "Hitting an enemy with Conflagrate increases all Shadow damage you deal by 4% for 20 sec, and hitting an enemy with Shadowburn increases all Fire damage you deal by 4% for 20 sec. In addition, Conflagrate has a 40% chance not to consume Immolate, and Shadowburn has a 40% chance to instantly refund a Soul Shard.",
-        "Hitting an enemy with Conflagrate increases all Shadow damage you deal by 6% for 20 sec, and hitting an enemy with Shadowburn increases all Fire damage you deal by 6% for 20 sec. In addition, Conflagrate has a 60% chance not to consume Immolate, and Shadowburn has a 60% chance to instantly refund a Soul Shard.",
-        "Hitting an enemy with Conflagrate increases all Shadow damage you deal by 8% for 20 sec, and hitting an enemy with Shadowburn increases all Fire damage you deal by 8% for 20 sec. In addition, Conflagrate has a 80% chance not to consume Immolate, and Shadowburn has a 80% chance to instantly refund a Soul Shard.",
-        "Hitting an enemy with Conflagrate increases all Shadow damage you deal by 10% for 20 sec, and hitting an enemy with Shadowburn increases all Fire damage you deal by 10% for 20 sec. In addition, Conflagrate has a 100% chance not to consume Immolate, and Shadowburn has a 100% chance to instantly refund a Soul Shard."
+        "Hitting an enemy with Conflagrate increases all Shadow damage you deal by 4% for 20 sec, and hitting an enemy with Shadowburn increases all Fire damage you deal by 4% for 20 sec. In addition, Conflagrate has a 20% chance not to consume Immolate, and Shadowburn has a 20% chance to instantly refund a Soul Shard.",
+        "Hitting an enemy with Conflagrate increases all Shadow damage you deal by 8% for 20 sec, and hitting an enemy with Shadowburn increases all Fire damage you deal by 8% for 20 sec. In addition, Conflagrate has a 40% chance not to consume Immolate, and Shadowburn has a 40% chance to instantly refund a Soul Shard.",
+        "Hitting an enemy with Conflagrate increases all Shadow damage you deal by 12% for 20 sec, and hitting an enemy with Shadowburn increases all Fire damage you deal by 12% for 20 sec. In addition, Conflagrate has a 60% chance not to consume Immolate, and Shadowburn has a 60% chance to instantly refund a Soul Shard.",
+        "Hitting an enemy with Conflagrate increases all Shadow damage you deal by 16% for 20 sec, and hitting an enemy with Shadowburn increases all Fire damage you deal by 16% for 20 sec. In addition, Conflagrate has a 80% chance not to consume Immolate, and Shadowburn has a 80% chance to instantly refund a Soul Shard.",
+        "Hitting an enemy with Conflagrate increases all Shadow damage you deal by 20% for 20 sec, and hitting an enemy with Shadowburn increases all Fire damage you deal by 20% for 20 sec. In addition, Conflagrate has a 100% chance not to consume Immolate, and Shadowburn has a 100% chance to instantly refund a Soul Shard."
        ],
        "status": "new",
        "src": [
         "https://wowforevertalents.com/warlock/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
+        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "https://wowfdb.com/talents/warlock/",
+        "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
+        "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+        "https://wago.tools/db2/Spell?build=1.60.1.70755"
        ]
       },
       {
