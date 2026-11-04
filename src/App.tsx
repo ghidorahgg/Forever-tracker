@@ -62,7 +62,7 @@ function setIntroDismissed(dismissed: boolean) {
   } catch { /* keep the in-memory toggle if storage is blocked */ }
 }
 function Legend({ src, announced }: { src?: boolean; announced?: boolean }) {
-  return <p className="legend"><Tag c="beta" /> is from beta data and may change at launch.{announced && <> <Tag c="announced" /> comes from a public announcement.</>}{src && <> <span className="src-key">src</span> links open the source.</>}</p>;
+  return <p className="legend"><Tag c="confirmed" /> matches live or official data. <Tag c="beta" /> is from beta data and may change at launch.{announced && <> <Tag c="announced" /> comes from a public announcement.</>}{src && <> <span className="src-key">src</span> links open the source.</>}</p>;
 }
 export default function App() {
   const [st, setSt] = useState<State>(load);
@@ -173,7 +173,7 @@ export default function App() {
     </section>}
     <footer>
       <p>Unofficial fan site, not affiliated with Blizzard. Made for the <a href="https://www.youtube.com/@GhidorahGG" target="_blank" rel="noopener">GhidorahGG YouTube channel</a>.</p>
-      <p>Data from fan sites (<a href="https://wowfdb.com/legacy">wowfdb.com</a>, <a href="https://foreverdb.net/legacy">foreverdb.net</a>, <a href="https://wowforevertalents.com/">wowforevertalents.com</a>), <a href="https://www.wowhead.com/classic">Wowhead Classic</a>, and Blizzard news; may change at launch. Talent tooltips follow client build 1.60.1.70707 and the 30 Oct 2026 hotfix cache. World of Warcraft is a trademark of Blizzard Entertainment, Inc.</p>
+      <p>Data from fan sites (<a href="https://wowfdb.com/legacy">wowfdb.com</a>, <a href="https://foreverdb.net/legacy">foreverdb.net</a>, <a href="https://wowforevertalents.com/">wowforevertalents.com</a>), <a href="https://www.wowhead.com/classic">Wowhead Classic</a>, and Blizzard news. Talent tooltips follow client build 1.60.1.70755 and the 3 Nov 2026 development notes. World of Warcraft is a trademark of Blizzard Entertainment, Inc.</p>
     </footer>
   </div>;
 }
