@@ -1,6 +1,7 @@
 import { useEffect, useId, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import raw from './data/talents.json';
+import iconMap from './data/talent-icons.json';
 import {
   type Plan, type Talent, type TalentClass, type TalentData,
   canAdd, decode, encode, lockReason, requiredLevel, spent, treeSpent, validate,
@@ -8,6 +9,13 @@ import {
 import { routeLinks, type Box, type Pt, type Routed } from './talent-arrows';
 
 const data = raw as TalentData;
+const ICON_BASE = 'https://wow.zamimg.com/images/wow/icons/large/';
+const classIcons = iconMap.classes as Record<string, string>;
+const talentIcons = iconMap.talents as Record<string, Record<string, string>>;
+
+function iconUrl(slug: string) {
+  return ICON_BASE + slug + '.jpg';
+}
 const CAP = data.meta.points;
 const KEY = 'ghidorah-forever-talents-v1';
 const DEEP = [
@@ -192,7 +200,10 @@ export default function Talents() {
   return <section className={touchUi ? 'calc has-dock' : 'calc'}>
     <p className="lead">Click a talent to add a rank. Right-click or Shift-click removes one. On a phone, tap a talent, then use Add rank and Remove rank. Each earlier row costs 5 points in that tree, and a linked talent must be maxed.</p>
     <p className="legend"><span className="pip-key" aria-hidden="true" /> is new or changed in Forever and may change at launch. <span className="src-key">src</span> opens the client read; <span className="src-key">notes</span> opens another source. Deep dives: {DEEP.map(([label, href], i) => <span key={href}>{i ? ' · ' : ''}<a href={href} target="_blank" rel="noopener">{label}</a></span>)}</p>
-    <div className="chips">{data.classes.map(c => <button key={c.id} type="button" className={c.id === cls.id ? 'on' : ''} aria-pressed={c.id === cls.id} onClick={() => pickClass(c.id)}>{c.name}</button>)}</div>
+    <div className="chips">{data.classes.map(c => <button key={c.id} type="button" className={c.id === cls.id ? 'on' : ''} aria-pressed={c.id === cls.id} onClick={() => pickClass(c.id)}>
+      {classIcons[c.id] && <img className="class-icon" alt="" width={20} height={20} src={iconUrl(classIcons[c.id])} onError={e => { e.currentTarget.remove(); }} />}
+      {c.name}
+    </button>)}</div>
     <div className="calc-bar">
       <div className="calc-left" data-testid="talent-points">
         <b>{left}</b>
@@ -338,6 +349,7 @@ function TreeView({ spec, tree, cls, plan, picked, onlyChanged, touchUi, canHove
             const state = maxed ? 'maxed' : rank > 0 ? 'partial' : locked ? 'locked' : 'open';
             const changed = talent.status !== 'same';
             const why = lockReason(cls, plan, talent, CAP);
+            const art = talentIcons[cls.id]?.[talent.id];
             return <div
               key={talent.id}
               className={'cell' + (changed ? '' : ' same')}
@@ -350,7 +362,7 @@ function TreeView({ spec, tree, cls, plan, picked, onlyChanged, touchUi, canHove
                 data-testid={'talent-' + talent.id}
                 data-rank={rank}
                 data-state={state}
-                className={'glyph ' + state + (changed ? ' changed' : '') + (picked === talent.id ? ' picked' : '')}
+                className={'glyph ' + state + (art ? ' has-art' : '') + (changed ? ' changed' : '') + (picked === talent.id ? ' picked' : '')}
                 aria-label={`${talent.name}, rank ${rank} of ${talent.max}. ${changed ? 'Changed in Forever. ' : ''}${why && rank < talent.max ? why : maxed ? 'Maxed' : 'Available'}`}
                 aria-describedby={tipId === talent.id ? floatId : undefined}
                 onClick={e => {
@@ -367,6 +379,7 @@ function TreeView({ spec, tree, cls, plan, picked, onlyChanged, touchUi, canHove
                 onMouseLeave={() => canHover && onLeave()}
                 onFocus={() => { onFocus(talent.id); onPick(talent.id); }}
                 onBlur={onBlur}>
+                {art && <TalentArt slug={art} />}
                 {changed && <span className="pip" aria-hidden="true" />}
                 <span className="nm">{talentLabel(talent.name)}</span>
                 <span className="rank">{rank}/{talent.max}</span>
@@ -377,6 +390,12 @@ function TreeView({ spec, tree, cls, plan, picked, onlyChanged, touchUi, canHove
       </div>
     </div>
   </div>;
+}
+
+function TalentArt({ slug }: { slug: string }) {
+  const [failed, setFailed] = useState(false);
+  if (failed) return null;
+  return <img className="art" alt="" draggable={false} src={iconUrl(slug)} onError={() => setFailed(true)} />;
 }
 
 function measureRoutes(board: HTMLElement, tree: TalentClass['trees'][number]): Routed[] {

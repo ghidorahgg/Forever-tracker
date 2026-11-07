@@ -131,6 +131,20 @@ for (const cls of data.classes) {
   }
 }
 
+const icons = JSON.parse(readFileSync(new URL('../src/data/talent-icons.json', import.meta.url), 'utf8')) as {
+  classes: Record<string, string>;
+  talents: Record<string, Record<string, string>>;
+};
+for (const cls of data.classes) {
+  assert(/^classicon_[a-z]+$/.test(icons.classes[cls.id] || ''), `${cls.id} class icon`);
+  for (const tree of cls.trees) {
+    for (const talent of tree.talents) {
+      const slug = icons.talents[cls.id]?.[talent.id];
+      assert(typeof slug === 'string' && /^[a-z0-9_]+$/.test(slug), `${cls.id} ${talent.id} icon`);
+    }
+  }
+}
+
 if (failed) {
   console.error(`${failed} assertion(s) failed`);
   process.exit(1);
