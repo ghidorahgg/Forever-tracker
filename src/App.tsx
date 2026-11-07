@@ -98,7 +98,7 @@ export default function App() {
     return out;
   }, [st, ch, earned, spent]);
   const groupClasses = new Set(st.group);
-  return <div className="wrap">
+  return <div className={tab === 'talents' ? 'wrap wrap-talents' : 'wrap'}>
     <header><h1>GhidorahGG <span>Forever Tracker</span></h1><Countdown /></header>
     {showIntro ? <section className="intro" aria-label="About this tracker">
       <div className="intro-top">
