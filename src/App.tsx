@@ -173,7 +173,7 @@ export default function App() {
     </section>}
     <footer>
       <p>Unofficial fan site, not affiliated with Blizzard. Made for the <a href="https://www.youtube.com/@GhidorahGG" target="_blank" rel="noopener">GhidorahGG YouTube channel</a>.</p>
-      <p>Data from fan sites (<a href="https://wowfdb.com/legacy">wowfdb.com</a>, <a href="https://foreverdb.net/legacy">foreverdb.net</a>, <a href="https://wowforevertalents.com/">wowforevertalents.com</a>), <a href="https://www.wowhead.com/classic">Wowhead Classic</a>, and Blizzard news. Talent tooltips follow client build 1.60.1.70755 and the 3 Nov 2026 development notes. World of Warcraft is a trademark of Blizzard Entertainment, Inc.</p>
+      <p>Data from fan sites (<a href="https://wowfdb.com/legacy">wowfdb.com</a>, <a href="https://foreverdb.net/legacy">foreverdb.net</a>, <a href="https://wowforevertalents.com/">wowforevertalents.com</a>), <a href="https://www.wowhead.com/classic">Wowhead Classic</a>, and Blizzard news. Talent tooltips follow client build 1.60.1.70888 and the 10 Nov 2026 hotfixes. World of Warcraft is a trademark of Blizzard Entertainment, Inc.</p>
     </footer>
   </div>;
 }
