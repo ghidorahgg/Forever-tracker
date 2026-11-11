@@ -4,8 +4,8 @@
   "firstLevel": 10,
   "tierPoints": 5,
   "rows": 7,
-  "clientBuild": "1.60.1.70755",
-  "hotfix": "2026-11-03",
+  "clientBuild": "1.60.1.70888",
+  "hotfix": "2026-11-10",
   "rule": "51 points at level 60, one point per level from 10. Five points already in a tree open the next row. A linked talent must be at full rank."
  },
  "classes": [
@@ -551,8 +551,8 @@
        "col": 3,
        "max": 2,
        "ranks": [
-        "Your Enrage, Berserker Rage, Bloodrage, Death Wish, and Bloodthirst abilities cause your next 3 melee attacks to restore 0.5% of your maximum Health.",
-        "Your Enrage, Berserker Rage, Bloodrage, Death Wish, and Bloodthirst abilities cause your next 3 melee attacks to restore 1.0% of your maximum Health."
+        "Your Enrage, Berserker Rage, Bloodrage, Death Wish, Reckless Swings, and Bloodthirst abilities cause your next 3 melee attacks to restore 0.5% of your maximum Health.",
+        "Your Enrage, Berserker Rage, Bloodrage, Death Wish, Reckless Swings, and Bloodthirst abilities cause your next 3 melee attacks to restore 1.0% of your maximum Health."
        ],
        "status": "new",
        "req": "blood-craze",
@@ -562,7 +562,9 @@
         "https://wowfdb.com/talents/warrior/",
         "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
         "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
-        "https://wago.tools/db2/Spell?build=1.60.1.70755"
+        "https://wago.tools/db2/Spell?build=1.60.1.70755",
+        "https://wago.tools/db2/Spell?build=1.60.1.70888",
+        "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-10-2026"
        ]
       },
       {
@@ -2083,10 +2085,12 @@
         "Command a hawk to dive-bomb your targeted enemy, dealing 32 plus 5% of your Ranged Attack Power Physical damage and continuing its assault for 18 sec. Only 2 hawks can be active at once. Summon Hawk shares its cooldown with Arcane Shot."
        ],
        "status": "new",
-       "cost": "80 Mana | 35 yd range | Instant | 6 sec cooldown",
+       "cost": "11% of base mana | 35 yd range | Instant | 6 sec cooldown",
+       "note": "Nov 10 hotfix: the Hawk's melee damage is about 80% higher. The dive-bomb damage in this tooltip is unchanged.",
        "src": [
         "https://wowforevertalents.com/hunter/",
-        "https://news.blizzard.com/en-us/article/24301515/world-of-warcraft-forever-class-deep-dives-hunter-and-druid"
+        "https://news.blizzard.com/en-us/article/24301515/world-of-warcraft-forever-class-deep-dives-hunter-and-druid",
+        "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-10-2026"
        ]
       },
       {
@@ -5053,9 +5057,9 @@
        "col": 2,
        "max": 3,
        "ranks": [
-        "Increases your Attack Power by an amount equal to 50% of your Intellect.",
-        "Increases your Attack Power by an amount equal to 100% of your Intellect.",
-        "Increases your Attack Power by an amount equal to 150% of your Intellect."
+        "Increases your Attack Power by an amount equal to 33% of your Intellect.",
+        "Increases your Attack Power by an amount equal to 66% of your Intellect.",
+        "Increases your Attack Power by an amount equal to 100% of your Intellect."
        ],
        "status": "new",
        "src": [
@@ -5064,7 +5068,8 @@
         "https://wowfdb.com/talents/shaman/",
         "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
         "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
-        "https://wago.tools/db2/Spell?build=1.60.1.70755"
+        "https://wago.tools/db2/Spell?build=1.60.1.70755",
+        "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-10-2026"
        ]
       },
       {
@@ -5179,17 +5184,18 @@
        "col": 3,
        "max": 1,
        "ranks": [
-        "Instantly strike for 150% weapon damage and increase the damage you deal to the target with your next Lightning Bolt, Chain Lightning, or Earth Shock spell by 20% for 12 sec."
+        "Instantly strike for 100% weapon damage and increase the damage you deal to the target with your next Lightning Bolt, Chain Lightning, or Earth Shock spell by 20% for 12 sec."
        ],
        "status": "changed",
-       "cost": "8% of base mana | Melee Range | Instant | 6 sec cooldown",
+       "cost": "8% of base mana | Melee Range | Instant | 8 sec cooldown",
        "src": [
         "https://wowforevertalents.com/shaman/",
         "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman",
         "https://wowfdb.com/talents/shaman/",
         "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
         "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
-        "https://wago.tools/db2/Spell?build=1.60.1.70755"
+        "https://wago.tools/db2/Spell?build=1.60.1.70755",
+        "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-10-2026"
        ]
       },
       {
@@ -5267,16 +5273,18 @@
        "col": 3,
        "max": 5,
        "ranks": [
-        "When you deal damage with a melee attack, you have a chance to reduce the cast time and Mana cost of your next Lightning Bolt spell by 4%. Stacks up to 5 times. Lasts 30 sec.",
-        "When you deal damage with a melee attack, you have a chance to reduce the cast time and Mana cost of your next Lightning Bolt spell by 8%. Stacks up to 5 times. Lasts 30 sec.",
-        "When you deal damage with a melee attack, you have a chance to reduce the cast time and Mana cost of your next Lightning Bolt spell by 12%. Stacks up to 5 times. Lasts 30 sec.",
-        "When you deal damage with a melee attack, you have a chance to reduce the cast time and Mana cost of your next Lightning Bolt spell by 16%. Stacks up to 5 times. Lasts 30 sec.",
+        "When you deal damage with a melee attack, you have a chance to reduce the cast time and Mana cost of your next Lightning Bolt spell by 20%. Stacks up to 5 times. Lasts 30 sec.",
+        "When you deal damage with a melee attack, you have a chance to reduce the cast time and Mana cost of your next Lightning Bolt spell by 20%. Stacks up to 5 times. Lasts 30 sec.",
+        "When you deal damage with a melee attack, you have a chance to reduce the cast time and Mana cost of your next Lightning Bolt spell by 20%. Stacks up to 5 times. Lasts 30 sec.",
+        "When you deal damage with a melee attack, you have a chance to reduce the cast time and Mana cost of your next Lightning Bolt spell by 20%. Stacks up to 5 times. Lasts 30 sec.",
         "When you deal damage with a melee attack, you have a chance to reduce the cast time and Mana cost of your next Lightning Bolt spell by 20%. Stacks up to 5 times. Lasts 30 sec."
        ],
        "status": "new",
+       "note": "Nov 10 hotfix: every rank reduces cast time and Mana cost by 20% per stack (was 4/8/12/16/20%). It activates about 6/7/8/9/10 times per minute by rank (was 20 at every rank). The tooltip shows that chance from main-hand weapon speed. With 5 points, a 3.6 speed weapon reads 60% and a 2.0 speed weapon reads 33%.",
        "src": [
         "https://wowforevertalents.com/shaman/",
-        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman"
+        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman",
+        "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-10-2026"
        ]
       },
       {
@@ -6740,14 +6748,15 @@
        "col": 3,
        "max": 3,
        "ranks": [
-        "Increases the damage done or health drained by your Drain Life, Drain Soul, and Wrack spells by 4% per each of your other Affliction effects active on the target, up to a maximum increase of 12%.",
-        "Increases the damage done or health drained by your Drain Life, Drain Soul, and Wrack spells by 8% per each of your other Affliction effects active on the target, up to a maximum increase of 24%.",
-        "Increases the damage done or health drained by your Drain Life, Drain Soul, and Wrack spells by 12% per each of your other Affliction effects active on the target, up to a maximum increase of 36%."
+        "Increases the damage done or health drained by your Drain Life, Drain Soul, and Wrack spells by 4% per each of your Corruption, Siphon Life, and Bane of Agony effects active on the target, up to a maximum increase of 12%.",
+        "Increases the damage done or health drained by your Drain Life, Drain Soul, and Wrack spells by 8% per each of your Corruption, Siphon Life, and Bane of Agony effects active on the target, up to a maximum increase of 24%.",
+        "Increases the damage done or health drained by your Drain Life, Drain Soul, and Wrack spells by 12% per each of your Corruption, Siphon Life, and Bane of Agony effects active on the target, up to a maximum increase of 36%."
        ],
        "status": "changed",
        "src": [
         "https://wowforevertalents.com/warlock/",
-        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock"
+        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-10-2026"
        ]
       },
       {
@@ -6772,7 +6781,7 @@
        "col": 2,
        "max": 1,
        "ranks": [
-        "Tears the target apart from within, inflicting 86 Shadow damage every 1 sec and increasing the damage they take from your other Shadow damage over time effects by 10% for 6 sec."
+        "Tears the target apart from within for 6 sec, inflicting 60 Shadow damage every 1 sec. While channeling, your Siphon Life, Corruption, and Bane of Agony effects on the target deal their periodic damage 100% faster."
        ],
        "status": "new",
        "req": "siphon-life",
@@ -6783,7 +6792,8 @@
         "https://wowfdb.com/talents/warlock/",
         "https://www.wowhead.com/forever/news/wow-forever-official-development-notes-and-class-tuning-383704",
         "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
-        "https://wago.tools/db2/Spell?build=1.60.1.70755"
+        "https://wago.tools/db2/Spell?build=1.60.1.70755",
+        "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-10-2026"
        ]
       }
      ]
@@ -8246,16 +8256,17 @@
        "col": 4,
        "max": 1,
        "ranks": [
-        "Instantly heals a target with your active Rejuvenation or Regrowth effect for an amount equal to the full duration of the periodic effect of the consumed spell."
+        "Instantly heals a target with your active Rejuvenation or Regrowth effect for an amount equal to the full duration of the periodic effect."
        ],
        "status": "changed",
        "cost": "20% of base mana | 40 yd range | Instant | 15 sec cooldown",
-       "note": "Deep dive said Swiftmend would not consume the heal over time. The client tooltip says the spell is consumed.",
        "src": [
         "https://wowforevertalents.com/patch-notes/",
         "https://www.wowhead.com/forever/news/massive-talent-tree-changes-to-druids-and-paladins-class-tuning-for-wow-forever-383670",
         "https://wowforevertalents.com/druid/",
-        "https://news.blizzard.com/en-us/article/24301515/world-of-warcraft-forever-class-deep-dives-hunter-and-druid"
+        "https://news.blizzard.com/en-us/article/24301515/world-of-warcraft-forever-class-deep-dives-hunter-and-druid",
+        "https://wago.tools/db2/Spell?build=1.60.1.70888",
+        "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-10-2026"
        ]
       },
       {
@@ -8269,7 +8280,12 @@
        ],
        "status": "same",
        "req": "naturalist",
-       "cost": "Instant | 3 min cooldown"
+       "cost": "Instant | 3 min cooldown",
+       "note": "Nov 10 hotfix: Nature's Swiftness also makes Wild Growth instant.",
+       "src": [
+        "https://wowforevertalents.com/druid/",
+        "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-10-2026"
+       ]
       },
       {
        "id": "living-spirit",
@@ -8342,7 +8358,7 @@
      ]
     }
    ],
-   "note": "The 30 Oct cache, not the deep dive: Berserk is gone, Lacerate is a talent, Primal Bite and Shifting Power are 31-point talents, and Swiftmend consumes its heal over time."
+   "note": "The 30 Oct cache, not the deep dive: Berserk is gone, Lacerate is a talent, and Primal Bite and Shifting Power are 31-point talents. Build 1.60.1.70888 removed the Swiftmend wording that said the heal over time was consumed."
   }
  ]
 }
