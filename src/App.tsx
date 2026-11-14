@@ -98,7 +98,7 @@ export default function App() {
     return out;
   }, [st, ch, earned, spent]);
   const groupClasses = new Set(st.group);
-  return <div className="wrap">
+  return <div className={tab === 'talents' ? 'wrap wrap-talents' : 'wrap'}>
     <header><h1>GhidorahGG <span>Forever Tracker</span></h1><Countdown /></header>
     {showIntro ? <section className="intro" aria-label="About this tracker">
       <div className="intro-top">
@@ -173,7 +173,7 @@ export default function App() {
     </section>}
     <footer>
       <p>Unofficial fan site, not affiliated with Blizzard. Made for the <a href="https://www.youtube.com/@GhidorahGG" target="_blank" rel="noopener">GhidorahGG YouTube channel</a>.</p>
-      <p>Data from fan sites (<a href="https://wowfdb.com/legacy">wowfdb.com</a>, <a href="https://foreverdb.net/legacy">foreverdb.net</a>, <a href="https://wowforevertalents.com/">wowforevertalents.com</a>), <a href="https://www.wowhead.com/classic">Wowhead Classic</a>, and Blizzard news. Talent tooltips follow client build 1.60.1.70888 and the 10 Nov 2026 hotfixes. World of Warcraft is a trademark of Blizzard Entertainment, Inc.</p>
+      <p>Data from fan sites (<a href="https://wowfdb.com/legacy">wowfdb.com</a>, <a href="https://foreverdb.net/legacy">foreverdb.net</a>, <a href="https://wowforevertalents.com/">wowforevertalents.com</a>), <a href="https://www.wowhead.com/classic">Wowhead Classic</a>, and Blizzard news. Talent tooltips follow client build 1.60.1.70888 and the 10 Nov 2026 hotfixes. Class and talent icons are Blizzard artwork from Wowhead's public icon files. World of Warcraft is a trademark of Blizzard Entertainment, Inc.</p>
     </footer>
   </div>;
 }
