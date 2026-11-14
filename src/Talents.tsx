@@ -10,11 +10,19 @@ import { routeLinks, type Box, type Pt, type Routed } from './talent-arrows';
 
 const data = raw as TalentData;
 const ICON_BASE = 'https://wow.zamimg.com/images/wow/icons/large/';
+const BG_BASE = 'https://wow.zamimg.com/images/wow/talents/backgrounds/classic/';
 const classIcons = iconMap.classes as Record<string, string>;
 const talentIcons = iconMap.talents as Record<string, Record<string, string>>;
+const treeBackgrounds = (iconMap as { backgrounds?: Record<string, Record<string, number>> }).backgrounds || {};
+const specIcons = (iconMap as { specs?: Record<string, Record<string, string>> }).specs || {};
 
 function iconUrl(slug: string) {
   return ICON_BASE + slug + '.jpg';
+}
+
+function backgroundUrl(classId: string, treeId: string) {
+  const id = treeBackgrounds[classId]?.[treeId];
+  return id ? BG_BASE + id + '.jpg' : '';
 }
 const CAP = data.meta.points;
 const KEY = 'ghidorah-forever-talents-v1';
@@ -198,20 +206,19 @@ export default function Talents() {
   const tipAnchor = tipTalent ? document.querySelector<HTMLElement>(`[data-testid="talent-${tipTalent.id}"]`) : null;
 
   return <section className={touchUi ? 'calc has-dock' : 'calc'}>
-    <p className="lead">Click a talent to add a rank. Right-click or Shift-click removes one. On a phone, tap a talent, then use Add rank and Remove rank. Each earlier row costs 5 points in that tree, and a linked talent must be maxed.</p>
+    <p className="lead">Left-click a talent to add a rank. Right-click removes one. On a phone, tap a talent, then use Add and Remove. A row opens after 5 points in that tree, and a linked talent must be maxed.</p>
     <p className="legend"><span className="pip-key" aria-hidden="true" /> is new or changed in Forever and may change at launch. <span className="src-key">src</span> opens the client read; <span className="src-key">notes</span> opens another source. Deep dives: {DEEP.map(([label, href], i) => <span key={href}>{i ? ' · ' : ''}<a href={href} target="_blank" rel="noopener">{label}</a></span>)}</p>
-    <div className="chips">{data.classes.map(c => <button key={c.id} type="button" className={c.id === cls.id ? 'on' : ''} aria-pressed={c.id === cls.id} onClick={() => pickClass(c.id)}>
-      {classIcons[c.id] && <img className="class-icon" alt="" width={20} height={20} src={iconUrl(classIcons[c.id])} onError={e => { e.currentTarget.remove(); }} />}
-      {c.name}
+    <div className="class-row" aria-label="Class">{data.classes.map(c => <button key={c.id} type="button" aria-pressed={c.id === cls.id} aria-label={c.name} className={c.id === cls.id ? 'on' : ''} onClick={() => pickClass(c.id)}>
+      {classIcons[c.id] && <img className="class-icon" alt="" width={36} height={36} src={iconUrl(classIcons[c.id])} onError={e => { e.currentTarget.remove(); }} />}
     </button>)}</div>
     <div className="calc-bar">
       <div className="calc-left" data-testid="talent-points">
         <b>{left}</b>
         <span>points left</span>
         <small>{total}/{CAP} spent</small>
-        <div className="meter" aria-hidden="true"><span style={{ width: `${(total / CAP) * 100}%` }} /></div>
       </div>
-      <div data-testid="talent-level">Level <b>{requiredLevel(total, data.meta.firstLevel)}</b></div>
+      <div className="calc-class">{cls.name}</div>
+      <div data-testid="talent-level">Required level <b>{requiredLevel(total, data.meta.firstLevel)}</b></div>
       <div className="calc-split">{cls.trees.map(t => <div key={t.id}>{t.name} <b>{treeSpent(t, plan)}</b></div>)}</div>
       <div className="calc-actions">
         <button type="button" className={onlyChanged ? 'on' : ''} aria-pressed={onlyChanged} onClick={() => setOnlyChanged(v => !v)}>Changed in Forever</button>
@@ -307,21 +314,17 @@ function TreeView({ spec, tree, cls, plan, picked, onlyChanged, touchUi, canHove
     return () => { cancel = true; ro.disconnect(); };
   }, [tree]);
 
+  const bg = backgroundUrl(cls.id, tree.id);
   return <div className="spec" data-spec={spec}>
     <div className="spec-head">
+      {(specIcons[cls.id]?.[tree.id] || classIcons[cls.id]) && <img className="spec-icon" alt="" width={28} height={28} src={iconUrl(specIcons[cls.id]?.[tree.id] || classIcons[cls.id])} />}
       <h3>{tree.name}{tree.confirmed ? '' : <small> · unconfirmed</small>}</h3>
       <b className={points ? 'spec-pts hot' : 'spec-pts'}>{points}</b>
       <button type="button" className="tiny" onClick={onReset} aria-label={'Reset ' + tree.name}>Reset</button>
     </div>
     {tree.note && <p className="note">{tree.note}</p>}
     <div className="spec-body">
-      <div className="tier-rail" aria-hidden="true">
-        {Array.from({ length: data.meta.rows }, (_, i) => {
-          const need = i * data.meta.tierPoints;
-          return <span key={need} className={points >= need ? 'on' : ''}>{need}</span>;
-        })}
-      </div>
-      <div className="board" ref={boardRef}>
+      <div className="board" ref={boardRef} style={bg ? { backgroundImage: `linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,.45)), url(${bg})` } : undefined}>
         <svg className="links" aria-hidden="true">
           {routes.map(route => {
             const from = byId.get(route.from);

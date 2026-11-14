@@ -1,4 +1,51 @@
 {
+ "backgrounds": {
+  "druid": {
+   "balance": 283,
+   "feral-combat": 281,
+   "restoration": 282
+  },
+  "hunter": {
+   "beast-mastery": 361,
+   "marksmanship": 363,
+   "survival": 362
+  },
+  "mage": {
+   "arcane": 81,
+   "fire": 41,
+   "frost": 61
+  },
+  "paladin": {
+   "holy": 382,
+   "protection": 383,
+   "retribution": 381
+  },
+  "priest": {
+   "discipline": 201,
+   "holy": 202,
+   "shadow-magic": 203
+  },
+  "rogue": {
+   "assassination": 182,
+   "combat": 181,
+   "subtlety": 183
+  },
+  "shaman": {
+   "elemental-combat": 261,
+   "enhancement": 263,
+   "restoration": 262
+  },
+  "warlock": {
+   "affliction": 302,
+   "demonology": 303,
+   "destruction": 301
+  },
+  "warrior": {
+   "arms": 161,
+   "fury": 164,
+   "protection": 163
+  }
+ },
  "classes": {
   "druid": "classicon_druid",
   "hunter": "classicon_hunter",
@@ -10,7 +57,54 @@
   "warlock": "classicon_warlock",
   "warrior": "classicon_warrior"
  },
- "source": "Wowhead Forever talent data (nether.wowhead.com/forever/data/talents-classic), icons from wow.zamimg.com",
+ "source": "Wowhead Forever talent data (nether.wowhead.com/forever/data/talents-classic). Icons: wow.zamimg.com/images/wow/icons/large/{name}.jpg. Tree backgrounds: wow.zamimg.com/images/wow/talents/backgrounds/classic/{treeId}.jpg.",
+ "specs": {
+  "druid": {
+   "balance": "spell_nature_starfall",
+   "feral-combat": "ability_racial_bearform",
+   "restoration": "spell_nature_healingtouch"
+  },
+  "hunter": {
+   "beast-mastery": "ability_hunter_beasttaming",
+   "marksmanship": "ability_marksmanship",
+   "survival": "ability_hunter_swiftstrike"
+  },
+  "mage": {
+   "arcane": "spell_holy_magicalsentry",
+   "fire": "spell_fire_firebolt02",
+   "frost": "spell_frost_frostbolt02"
+  },
+  "paladin": {
+   "holy": "spell_holy_holybolt",
+   "protection": "spell_holy_devotionaura",
+   "retribution": "spell_holy_auraoflight"
+  },
+  "priest": {
+   "discipline": "spell_holy_wordfortitude",
+   "holy": "spell_holy_guardianspirit",
+   "shadow-magic": "spell_shadow_shadowwordpain"
+  },
+  "rogue": {
+   "assassination": "ability_rogue_eviscerate",
+   "combat": "ability_backstab",
+   "subtlety": "ability_stealth"
+  },
+  "shaman": {
+   "elemental-combat": "spell_nature_lightning",
+   "enhancement": "spell_nature_lightningshield",
+   "restoration": "spell_nature_magicimmunity"
+  },
+  "warlock": {
+   "affliction": "spell_shadow_deathcoil",
+   "demonology": "spell_shadow_metamorphosis",
+   "destruction": "spell_shadow_rainoffire"
+  },
+  "warrior": {
+   "arms": "ability_rogue_eviscerate",
+   "fury": "ability_warrior_innerrage",
+   "protection": "inv_shield_06"
+  }
+ },
  "talents": {
   "druid": {
    "blood-frenzy": "ability_ghoulfrenzy",
