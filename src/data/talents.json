@@ -4,8 +4,8 @@
   "firstLevel": 10,
   "tierPoints": 5,
   "rows": 7,
-  "clientBuild": "1.60.1.70888",
-  "hotfix": "2026-11-10",
+  "clientBuild": "1.60.1.70959",
+  "hotfix": "2026-11-17",
   "rule": "51 points at level 60, one point per level from 10. Five points already in a tree open the next row. A linked talent must be at full rank."
  },
  "classes": [
@@ -4558,13 +4558,15 @@
        "col": 2,
        "max": 1,
        "ranks": [
-        "Afflicts your target with Shadow energy that causes all party members to be healed for 20% of any Shadow spell damage you deal for 30 sec."
+        "Afflicts your target with Shadow energy that causes all party members to be healed for 10% of any Shadow spell damage you deal for 30 sec. You receive 100% increased healing on yourself from this effect."
        ],
        "status": "changed",
        "cost": "40 Mana | 30 yd range | Instant | 30 sec cooldown",
        "src": [
         "https://wowforevertalents.com/priest/",
-        "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior"
+        "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior",
+        "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-17-2026",
+        "https://wowfdb.com/talents/priest/"
        ]
       },
       {
