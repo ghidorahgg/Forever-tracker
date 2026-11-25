@@ -4,8 +4,8 @@
   "firstLevel": 10,
   "tierPoints": 5,
   "rows": 7,
-  "clientBuild": "1.60.1.70959",
-  "hotfix": "2026-11-17",
+  "clientBuild": "1.60.1.71091",
+  "hotfix": "2026-11-23",
   "rule": "51 points at level 60, one point per level from 10. Five points already in a tree open the next row. A linked talent must be at full rank."
  },
  "classes": [
@@ -1795,16 +1795,20 @@
        "col": 4,
        "max": 3,
        "ranks": [
-        "Increases the physical damage you deal by 2%, and reduces all threat you generate by 7% while a two-handed melee weapon is equipped.",
-        "Increases the physical damage you deal by 4%, and reduces all threat you generate by 14% while a two-handed melee weapon is equipped.",
-        "Increases the physical damage you deal by 6%, and reduces all threat you generate by 20% while a two-handed melee weapon is equipped."
+        "Increases the Physical and Holy damage you deal by 2%, and reduces all threat you generate by 7% while a two-handed melee weapon is equipped.",
+        "Increases the Physical and Holy damage you deal by 4%, and reduces all threat you generate by 14% while a two-handed melee weapon is equipped.",
+        "Increases the Physical and Holy damage you deal by 6%, and reduces all threat you generate by 20% while a two-handed melee weapon is equipped."
        ],
        "status": "changed",
        "src": [
         "https://wowforevertalents.com/patch-notes/",
         "https://www.wowhead.com/forever/news/massive-talent-tree-changes-to-druids-and-paladins-class-tuning-for-wow-forever-383670",
         "https://wowforevertalents.com/paladin/",
-        "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap"
+        "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap",
+        "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-23-2026",
+        "https://wowfdb.com/talents/paladin/",
+        "https://wago.tools/db2/Spell?build=1.60.1.71091&filter[ID]=exact:20111",
+        "https://wago.tools/db2/SpellEffect?build=1.60.1.71091&filter[SpellID]=exact:20111"
        ]
       },
       {

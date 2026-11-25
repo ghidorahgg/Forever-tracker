@@ -1251,10 +1251,12 @@
    "buff": "+8% all stats",
    "conflict": "Blessing of Kings",
    "conflictClass": "Paladin",
-   "confidence": "announced",
+   "confidence": "confirmed",
    "sources": [
     "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
-    "https://wowfdb.com/camp/"
+    "https://wowfdb.com/camp/",
+    "https://wago.tools/db2/Spell?build=1.60.1.71091&filter[ID]=exact:1307245",
+    "https://wago.tools/db2/ItemSparse?build=1.60.1.71091&filter[ID]=exact:279967"
    ]
   },
   {
@@ -1263,10 +1265,12 @@
    "buff": "Armor, stats, resists",
    "conflict": "Mark of the Wild",
    "conflictClass": "Druid",
-   "confidence": "announced",
+   "confidence": "confirmed",
    "sources": [
     "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
-    "https://wowfdb.com/camp/"
+    "https://wowfdb.com/camp/",
+    "https://wago.tools/db2/Spell?build=1.60.1.71091&filter[ID]=exact:1307234",
+    "https://wago.tools/db2/ItemSparse?build=1.60.1.71091&filter[ID]=exact:279976"
    ]
   },
   {
@@ -1275,10 +1279,12 @@
    "buff": "Stamina",
    "conflict": "Power Word: Fortitude",
    "conflictClass": "Priest",
-   "confidence": "announced",
+   "confidence": "confirmed",
    "sources": [
     "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
-    "https://wowfdb.com/camp/"
+    "https://wowfdb.com/camp/",
+    "https://wago.tools/db2/Spell?build=1.60.1.71091&filter[ID]=exact:1307244",
+    "https://wago.tools/db2/ItemSparse?build=1.60.1.71091&filter[ID]=exact:279968"
    ]
   },
   {
@@ -1300,10 +1306,12 @@
    "buff": "Mana regen",
    "conflict": "Blessing of Wisdom",
    "conflictClass": "Paladin",
-   "confidence": "announced",
+   "confidence": "confirmed",
    "sources": [
     "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
-    "https://wowfdb.com/camp/"
+    "https://wowfdb.com/camp/",
+    "https://wago.tools/db2/Spell?build=1.60.1.71091&filter[ID]=exact:1307259",
+    "https://wago.tools/db2/ItemSparse?build=1.60.1.71091&filter[ID]=exact:279956"
    ]
   },
   {
@@ -1312,10 +1320,12 @@
    "buff": "Intellect",
    "conflict": "Arcane Intellect",
    "conflictClass": "Mage",
-   "confidence": "announced",
+   "confidence": "confirmed",
    "sources": [
     "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
-    "https://wowfdb.com/camp/"
+    "https://wowfdb.com/camp/",
+    "https://wago.tools/db2/Spell?build=1.60.1.71091&filter[ID]=exact:1307251",
+    "https://wago.tools/db2/ItemSparse?build=1.60.1.71091&filter[ID]=exact:279962"
    ]
   },
   {
@@ -1324,10 +1334,13 @@
    "buff": "Spirit",
    "conflict": "Divine Spirit",
    "conflictClass": "Priest",
-   "confidence": "announced",
+   "confidence": "confirmed",
    "sources": [
     "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
-    "https://wowfdb.com/camp/"
+    "https://wowfdb.com/camp/",
+    "https://wago.tools/db2/Spell?build=1.60.1.71091&filter[ID]=exact:1307239",
+    "https://wago.tools/db2/Spell?build=1.60.1.71091&filter[ID]=exact:1307240",
+    "https://wago.tools/db2/ItemSparse?build=1.60.1.71091&filter[ID]=exact:279973"
    ]
   },
   {
@@ -1336,10 +1349,12 @@
    "buff": "Melee attack power",
    "conflict": "Blessing of Might",
    "conflictClass": "Paladin",
-   "confidence": "announced",
+   "confidence": "confirmed",
    "sources": [
     "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
-    "https://wowfdb.com/camp/"
+    "https://wowfdb.com/camp/",
+    "https://wago.tools/db2/Spell?build=1.60.1.71091&filter[ID]=exact:1307254",
+    "https://wago.tools/db2/ItemSparse?build=1.60.1.71091&filter[ID]=exact:279960"
    ]
   },
   {
@@ -1348,10 +1363,12 @@
    "buff": "Strength",
    "conflict": "Strength of Earth Totem",
    "conflictClass": "Shaman",
-   "confidence": "announced",
+   "confidence": "confirmed",
    "sources": [
     "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
-    "https://wowfdb.com/camp/"
+    "https://wowfdb.com/camp/",
+    "https://wago.tools/db2/Spell?build=1.60.1.71091&filter[ID]=exact:1307392",
+    "https://wago.tools/db2/ItemSparse?build=1.60.1.71091&filter[ID]=exact:279944"
    ]
   },
   {
